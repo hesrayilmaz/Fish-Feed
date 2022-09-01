@@ -1,0 +1,45 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using DG.Tweening;
+
+public class PlayerController : MonoBehaviour
+{
+
+    [SerializeField] private float forwardSpeed;
+    private int desiredLane = 1;  //0:left, 1:middle, 2:right
+    [SerializeField] private float laneDistance = 8;  //distance between two lanes
+
+    // Start is called before the first frame update
+    void Start()
+    {
+      
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            if (desiredLane != 2)
+                desiredLane++;
+        }
+        else if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            if (desiredLane != 0)
+                desiredLane--;
+        }
+
+        transform.DOMoveZ(1f, 0.5f).SetRelative();
+
+        Vector3 targetPos = transform.position.z * transform.forward + transform.position.y * transform.up;
+        if (desiredLane == 0)
+            targetPos += Vector3.left * laneDistance;
+        else if (desiredLane == 2)
+            targetPos += Vector3.right * laneDistance;
+
+        transform.DOMove(targetPos, 0.8f);
+    }
+
+}
