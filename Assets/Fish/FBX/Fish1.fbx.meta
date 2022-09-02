@@ -6,7 +6,22 @@ ModelImporter:
   - first:
       74: -4086864642940237741
     second: Armature|Swim
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bottom
+    second: {fileID: 2100000, guid: 1b23caa33fb1cdb4bb9b32cf4988ccbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fins
+    second: {fileID: 2100000, guid: 95c7407e5d11b5b44bc21b6b57624bac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Top
+    second: {fileID: 2100000, guid: 16cfb761aee13cb4781c8c61b021e5e6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

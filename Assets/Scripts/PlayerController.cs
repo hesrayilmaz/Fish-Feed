@@ -11,13 +11,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float laneDistance = 8;  //distance between two lanes
     
     [SerializeField] private SimpleAnimancer animancer;
-    [SerializeField] private string swimAnimName = "Armature_Swim";
+    [SerializeField] private string swimAnimName = "Swim";
     [SerializeField] private float swimAnimSpeed = 1f;
 
     // Start is called before the first frame update
     void Start()
     {
-      
+        SwimAnimation();
     }
 
     // Update is called once per frame
@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
                 desiredLane--;
         }
 
-        transform.DOMoveZ(1f, 0.5f).SetRelative();
+        transform.DOMoveZ(1f, 0.1f).SetRelative();
 
         Vector3 targetPos = transform.position.z * transform.forward + transform.position.y * transform.up;
         if (desiredLane == 0)

@@ -3,7 +3,22 @@ guid: 4b4a0fbdc225bfa4081b184f765f231d
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BottleCap
+    second: {fileID: 2100000, guid: 08d8da9c26456c343876b22f4f2c2b29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DarkGreen
+    second: {fileID: 2100000, guid: eb46e82eefa90954bbd39f65f420026a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LightBrown
+    second: {fileID: 2100000, guid: fedcb6342fd8e914db7c124d348388e9, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
