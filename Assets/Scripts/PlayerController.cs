@@ -47,7 +47,19 @@ public class PlayerController : MonoBehaviour
     }
 
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag=="Food" || other.gameObject.tag == "Steak")
+        {
+            Destroy(other.gameObject);
+        }
+        else if(other.gameObject.tag == "Trash")
+        {
+            Destroy(other.gameObject);
+        }
 
+
+    }
 
 
 
