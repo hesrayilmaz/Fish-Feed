@@ -12,7 +12,8 @@ public class PlayerController : MonoBehaviour
     
     [SerializeField] private SimpleAnimancer animancer;
     [SerializeField] private string swimAnimName = "Swim";
-    [SerializeField] private float swimAnimSpeed = 1f;
+    [SerializeField] private float swimAnimSpeed = 3f;
+    private bool isSpeedUp = false;
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +36,14 @@ public class PlayerController : MonoBehaviour
                 desiredLane--;
         }
 
+        if (isSpeedUp)
+        {
+            StartCoroutine(Speed());
+            
+        }
+           
+
+
         transform.DOMoveZ(1f, 0.1f).SetRelative();
 
         Vector3 targetPos = transform.position.z * transform.forward + transform.position.y * transform.up;
@@ -53,6 +62,11 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(other.gameObject);
             transform.DOScale(transform.localScale + new Vector3(0.1f,0.05f,0.05f), 0.1f);
+
+            if(other.gameObject.tag == "Steak")
+            {
+                isSpeedUp = true;
+            }
         }
         else if(other.gameObject.tag == "Trash")
         {
@@ -73,6 +87,18 @@ public class PlayerController : MonoBehaviour
     {
         animancer.PlayAnimation(animName);
         animancer.SetStateSpeed(animSpeed);
+    }
+
+
+    IEnumerator Speed()
+    {
+        transform.DOMoveZ(1f, 0.01f).SetRelative();
+        swimAnimSpeed = 8f;
+        SwimAnimation();
+        yield return new WaitForSeconds(0.3f);
+        swimAnimSpeed = 3f;
+        SwimAnimation();
+        isSpeedUp = false;
     }
 
 }
