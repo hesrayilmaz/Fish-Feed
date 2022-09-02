@@ -52,10 +52,12 @@ public class PlayerController : MonoBehaviour
         if(other.gameObject.tag=="Food" || other.gameObject.tag == "Steak")
         {
             Destroy(other.gameObject);
+            transform.DOScale(transform.localScale + new Vector3(0.1f,0.05f,0.05f), 0.1f);
         }
         else if(other.gameObject.tag == "Trash")
         {
             Destroy(other.gameObject);
+            transform.DOScale(transform.localScale - new Vector3(0.1f, 0.05f, 0.05f), 0.1f);
         }
 
 
