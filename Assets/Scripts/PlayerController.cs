@@ -5,7 +5,7 @@ using DG.Tweening;
 
 public class PlayerController : MonoBehaviour
 {
-
+    [SerializeField] private Score score;
     [SerializeField] private float forwardSpeed;
     private int desiredLane = 1;  //0:left, 1:middle, 2:right
     [SerializeField] private float laneDistance = 8;  //distance between two lanes
@@ -58,24 +58,37 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag=="Food" || other.gameObject.tag == "Steak")
-        {
+       if (other.gameObject.tag == "Steak")
+       {
+            score.IncreaseScore(15);
             Destroy(other.gameObject);
-            transform.DOScale(transform.localScale + new Vector3(0.1f,0.05f,0.05f), 0.1f);
-
-            if(other.gameObject.tag == "Steak")
-            {
-                isSpeedUp = true;
-            }
-        }
-        else if(other.gameObject.tag == "Trash")
-        {
+            transform.DOScale(transform.localScale + new Vector3(0.1f, 0.05f, 0.05f), 0.1f);
+            isSpeedUp = true;
+       }
+       else if (other.gameObject.tag == "Fish")
+       {
+            score.IncreaseScore(10);
+            Destroy(other.gameObject);
+            transform.DOScale(transform.localScale + new Vector3(0.1f, 0.05f, 0.05f), 0.1f);
+       }
+       else if (other.gameObject.tag == "FishBone")
+       {
+            score.IncreaseScore(5);
+            Destroy(other.gameObject);
+            transform.DOScale(transform.localScale + new Vector3(0.1f, 0.05f, 0.05f), 0.1f);
+       }
+       else if (other.gameObject.tag == "Trash")
+       {
+            score.DecreaseScore(10);
             Destroy(other.gameObject);
             transform.DOScale(transform.localScale - new Vector3(0.1f, 0.05f, 0.05f), 0.1f);
-        }
+       }
+       else if (other.gameObject.tag == "Obstacle")
+       {
+            score.DecreaseScore(10);
+       }
 
-
-    }
+   }
 
 
 

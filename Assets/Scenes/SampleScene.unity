@@ -3998,7 +3998,7 @@ CharacterController:
   m_GameObject: {fileID: 1442209815}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Height: 2
   m_Radius: 0.5
@@ -4019,6 +4019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f248f83fe487604c86ae9b79fb508cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: {fileID: 861260588}
   forwardSpeed: 10
   laneDistance: 8
   animancer: {fileID: 1181332298}

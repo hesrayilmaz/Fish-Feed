@@ -11,6 +11,8 @@ TagManager:
   - Boundary
   - Hook
   - Shark
+  - Fish
+  - FishBone
   layers:
   - Default
   - TransparentFX

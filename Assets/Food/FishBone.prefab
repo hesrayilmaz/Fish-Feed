@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -3056947631670858362}
   m_Layer: 0
   m_Name: FishBone
-  m_TagString: Food
+  m_TagString: FishBone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

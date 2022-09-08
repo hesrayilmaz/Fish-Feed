@@ -23,6 +23,8 @@ public class Score : MonoBehaviour
     }
     public void DecreaseScore(int point)
     {
-        score -= point;
+        if (score - point < 0)
+            score = 0;
+        else score -= point;
     }
 }
