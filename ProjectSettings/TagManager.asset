@@ -9,6 +9,8 @@ TagManager:
   - Obstacle
   - Steak
   - Boundary
+  - Hook
+  - Shark
   layers:
   - Default
   - TransparentFX
