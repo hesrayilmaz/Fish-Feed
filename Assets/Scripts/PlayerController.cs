@@ -71,6 +71,12 @@ public class PlayerController : MonoBehaviour
             Destroy(other.gameObject);
             transform.DOScale(transform.localScale + new Vector3(0.1f, 0.05f, 0.05f), 0.1f);
        }
+        else if (other.gameObject.tag == "BonusFish")
+       {
+            score.IncreaseScore(15);
+            Destroy(other.gameObject);
+            transform.DOScale(transform.localScale + new Vector3(0.1f, 0.05f, 0.05f), 0.1f);
+       }
        else if (other.gameObject.tag == "FishBone")
        {
             score.IncreaseScore(5);
@@ -87,6 +93,10 @@ public class PlayerController : MonoBehaviour
        {
             score.DecreaseScore(10);
        }
+       else if(other.gameObject.tag == "Shark" || other.gameObject.tag == "Hook")
+        {
+            Debug.Log("GameOver");
+        }
 
    }
 
