@@ -42,8 +42,6 @@ public class PlayerController : MonoBehaviour
             
         }
            
-
-
         transform.DOMoveZ(1f, 0.1f).SetRelative();
 
         Vector3 targetPos = transform.position.z * transform.forward + transform.position.y * transform.up;
@@ -62,33 +60,33 @@ public class PlayerController : MonoBehaviour
        {
             score.IncreaseScore(15);
             Destroy(other.gameObject);
-            transform.DOScale(transform.localScale + new Vector3(0.1f, 0.05f, 0.05f), 0.1f);
+            IncreaseSize();
             isSpeedUp = true;
        }
        else if (other.gameObject.tag == "Fish")
        {
             score.IncreaseScore(10);
             Destroy(other.gameObject);
-            transform.DOScale(transform.localScale + new Vector3(0.1f, 0.05f, 0.05f), 0.1f);
-       }
+            IncreaseSize();
+        }
         else if (other.gameObject.tag == "BonusFish")
        {
             score.IncreaseScore(15);
             Destroy(other.gameObject);
-            transform.DOScale(transform.localScale + new Vector3(0.1f, 0.05f, 0.05f), 0.1f);
-       }
+            IncreaseSize();
+        }
        else if (other.gameObject.tag == "FishBone")
        {
             score.IncreaseScore(5);
             Destroy(other.gameObject);
-            transform.DOScale(transform.localScale + new Vector3(0.1f, 0.05f, 0.05f), 0.1f);
-       }
+            IncreaseSize();
+        }
        else if (other.gameObject.tag == "Trash")
        {
             score.DecreaseScore(10);
             Destroy(other.gameObject);
-            transform.DOScale(transform.localScale - new Vector3(0.1f, 0.05f, 0.05f), 0.1f);
-       }
+            DecreaseSize();
+        }
        else if (other.gameObject.tag == "Obstacle")
        {
             score.DecreaseScore(10);
@@ -100,7 +98,15 @@ public class PlayerController : MonoBehaviour
 
    }
 
+    public void IncreaseSize()
+    {
+        transform.DOScale(transform.localScale + new Vector3(0.1f, 0.03f, 0.03f), 0.1f);
+    }
 
+    public void DecreaseSize()
+    {
+        transform.DOScale(transform.localScale - new Vector3(0.1f, 0.03f, 0.03f), 0.1f);
+    }
 
     public void SwimAnimation()
     {
