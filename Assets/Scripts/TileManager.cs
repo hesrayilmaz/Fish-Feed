@@ -30,7 +30,7 @@ public class TileManager : MonoBehaviour
     void Update()
     {
 
-        if (playerTransform.position.z - (tilePrefabs.Length * tileLength)/2 > tilePos.z - ((tilePrefabs.Length) * tileLength))
+        if (playerTransform.position.z - (tilePrefabs.Length * tileLength)/3 > tilePos.z - ((tilePrefabs.Length) * tileLength))
         {
             GenerateTile();
         }
@@ -61,6 +61,10 @@ public class TileManager : MonoBehaviour
         return currentTile;
     }
 
+    public float GetDestroyPoint()
+    {
+        return destroyPoint;
+    }
 
     public int RandomIntExcept(int n, params int[] excepts)
     {
@@ -74,5 +78,6 @@ public class TileManager : MonoBehaviour
         }
         return result;
     }
+
 }
 

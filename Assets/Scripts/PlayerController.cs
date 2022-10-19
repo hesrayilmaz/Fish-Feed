@@ -6,11 +6,13 @@ using DG.Tweening;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private Score score;
-    [SerializeField] private float forwardSpeed;
+    //[SerializeField] private float forwardSpeed;
     private int desiredLane = 1;  //0:left, 1:middle, 2:right
     [SerializeField] private float laneDistance = 8;  //distance between two lanes
-    
+    private float forwardSpeed = 0.1f;
+
     [SerializeField] private SimpleAnimancer animancer;
+    [SerializeField] private TileManager tileManager;
     [SerializeField] private string swimAnimName = "Swim";
     [SerializeField] private float swimAnimSpeed = 3f;
     private bool isSpeedUp = false;
@@ -41,8 +43,15 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(Speed());
             
         }
-           
-        transform.DOMoveZ(1f, 0.1f).SetRelative();
+        
+        if(transform.position.z >= tileManager.GetDestroyPoint())
+        {
+            forwardSpeed -= 0.001f;
+            Debug.Log("speed: " + forwardSpeed);
+        }
+
+
+        transform.DOMoveZ(1f, forwardSpeed).SetRelative();
 
         Vector3 targetPos = transform.position.z * transform.forward + transform.position.y * transform.up;
         if (desiredLane == 0)
@@ -100,12 +109,12 @@ public class PlayerController : MonoBehaviour
 
     public void IncreaseSize()
     {
-        transform.DOScale(transform.localScale + new Vector3(0.1f, 0.01f, 0.01f), 0.1f);
+        transform.DOScale(transform.localScale + new Vector3(0.02f, 0.01f, 0.01f), 0.1f);
     }
 
     public void DecreaseSize()
     {
-        transform.DOScale(transform.localScale - new Vector3(0.1f, 0.01f, 0.01f), 0.1f);
+        transform.DOScale(transform.localScale - new Vector3(0.02f, 0.01f, 0.01f), 0.1f);
     }
 
     public void SwimAnimation()

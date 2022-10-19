@@ -16,6 +16,11 @@ public class HookController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.DOMove(targetPos, 10f);
+        transform.DOMove(targetPos, 15f);
+    }
+
+    private void OnDestroy()
+    {
+        DOTween.KillAll();
     }
 }
