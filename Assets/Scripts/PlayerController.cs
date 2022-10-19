@@ -100,12 +100,12 @@ public class PlayerController : MonoBehaviour
 
     public void IncreaseSize()
     {
-        transform.DOScale(transform.localScale + new Vector3(0.1f, 0.03f, 0.03f), 0.1f);
+        transform.DOScale(transform.localScale + new Vector3(0.1f, 0.01f, 0.01f), 0.1f);
     }
 
     public void DecreaseSize()
     {
-        transform.DOScale(transform.localScale - new Vector3(0.1f, 0.03f, 0.03f), 0.1f);
+        transform.DOScale(transform.localScale - new Vector3(0.1f, 0.01f, 0.01f), 0.1f);
     }
 
     public void SwimAnimation()

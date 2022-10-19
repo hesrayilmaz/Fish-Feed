@@ -14,6 +14,7 @@ TagManager:
   - Fish
   - FishBone
   - BonusFish
+  - Border
   layers:
   - Default
   - TransparentFX

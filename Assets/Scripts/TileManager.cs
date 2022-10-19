@@ -11,36 +11,49 @@ public class TileManager : MonoBehaviour
     private float spawnTime;
     private GameObject currentTile;
     [SerializeField] private GameObject firstTile;
+    [SerializeField] private Transform playerTransform;
+    private List<GameObject> activeTiles;
+    private float tileLength = 120;
+    private float destroyPoint;
 
     // Start is called before the first frame update
     void Start()
     {
-        //currentTile = firstTile;
+        activeTiles = new List<GameObject>();
+        activeTiles.Add(firstTile);
         tileIndex = 0;
         tilePos = new Vector3(0, 0, 150);
+        destroyPoint = playerTransform.position.z + 300;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Time.time > spawnTime)
+
+        if (playerTransform.position.z - (tilePrefabs.Length * tileLength)/2 > tilePos.z - ((tilePrefabs.Length) * tileLength))
         {
             GenerateTile();
-            spawnTime = Time.time + timeBetweenSpawn;
+        }
+
+        if (playerTransform.position.z >= destroyPoint)
+        {
+            DestroyTile();
+            destroyPoint += tileLength;
         }
     }
 
     public void GenerateTile()
     {
-        /*if (_currentTile != null)
-        {
-            Destroy(_currentTile);
-        }*/
         tileIndex = RandomIntExcept(tilePrefabs.Length, tileIndex, tileIndex-1);
-        Debug.Log(tileIndex);
-        currentTile = Instantiate(tilePrefabs[tileIndex]);
-        currentTile.transform.position = tilePos;
-        tilePos.z += 100;
+        currentTile = Instantiate(tilePrefabs[tileIndex],tilePos,Quaternion.identity);
+        activeTiles.Add(currentTile);
+        tilePos.z += tileLength;
+    }
+
+    public void DestroyTile()
+    {
+        Destroy(activeTiles[0]);
+        activeTiles.RemoveAt(0);
     }
 
     public GameObject GetCurrentTile()
