@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float swimAnimSpeed = 3f;
     private bool isSpeedUp = false;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,40 +27,43 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (GameManager.instance.isPlaying)
+        {
+            if (Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                if (desiredLane != 2)
+                    desiredLane++;
+            }
+            else if (Input.GetKeyDown(KeyCode.LeftArrow))
+            {
+                if (desiredLane != 0)
+                    desiredLane--;
+            }
 
-        if (Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            if (desiredLane != 2)
-                desiredLane++;
-        }
-        else if (Input.GetKeyDown(KeyCode.LeftArrow))
-        {
-            if (desiredLane != 0)
-                desiredLane--;
-        }
+            if (isSpeedUp)
+            {
+                StartCoroutine(Speed());
 
-        if (isSpeedUp)
-        {
-            StartCoroutine(Speed());
-            
+            }
+
+            if (transform.position.z >= tileManager.GetDestroyPoint())
+            {
+                forwardSpeed -= 0.002f;
+                //Debug.Log("speed: " + forwardSpeed);
+            }
+
+
+            transform.DOMoveZ(1f, forwardSpeed).SetRelative();
+
+            Vector3 targetPos = transform.position.z * transform.forward + transform.position.y * transform.up;
+            if (desiredLane == 0)
+                targetPos += Vector3.left * laneDistance;
+            else if (desiredLane == 2)
+                targetPos += Vector3.right * laneDistance;
+
+            transform.DOMove(targetPos, 0.8f);
         }
         
-        if(transform.position.z >= tileManager.GetDestroyPoint())
-        {
-            forwardSpeed -= 0.002f;
-            //Debug.Log("speed: " + forwardSpeed);
-        }
-
-
-        transform.DOMoveZ(1f, forwardSpeed).SetRelative();
-
-        Vector3 targetPos = transform.position.z * transform.forward + transform.position.y * transform.up;
-        if (desiredLane == 0)
-            targetPos += Vector3.left * laneDistance;
-        else if (desiredLane == 2)
-            targetPos += Vector3.right * laneDistance;
-
-        transform.DOMove(targetPos, 0.8f);
     }
 
 
@@ -89,7 +93,7 @@ public class PlayerController : MonoBehaviour
             score.IncreaseScore(5);
             Destroy(other.gameObject);
             IncreaseSize();
-        }
+       }
        else if (other.gameObject.tag == "Trash")
        {
             score.DecreaseScore(10);
@@ -103,6 +107,7 @@ public class PlayerController : MonoBehaviour
        else if(other.gameObject.tag == "Shark" || other.gameObject.tag == "Hook")
         {
             Debug.Log("GameOver");
+            GameOver();
         }
 
    }
@@ -115,6 +120,11 @@ public class PlayerController : MonoBehaviour
     public void DecreaseSize()
     {
         transform.DOScale(transform.localScale - new Vector3(0.02f, 0.01f, 0.01f), 0.1f);
+    }
+
+    public void GameOver()
+    {
+        GameManager.instance.ShowPanel();
     }
 
     public void SwimAnimation()
@@ -138,5 +148,7 @@ public class PlayerController : MonoBehaviour
         SwimAnimation();
         isSpeedUp = false;
     }
+
+  
 
 }
