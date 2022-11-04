@@ -46,8 +46,8 @@ public class PlayerController : MonoBehaviour
         
         if(transform.position.z >= tileManager.GetDestroyPoint())
         {
-            forwardSpeed -= 0.001f;
-            Debug.Log("speed: " + forwardSpeed);
+            forwardSpeed -= 0.002f;
+            //Debug.Log("speed: " + forwardSpeed);
         }
 
 
