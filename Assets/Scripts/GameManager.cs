@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using DG.Tweening;
 
 public class GameManager : MonoBehaviour
 {
@@ -23,12 +25,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         gameOverPanel = GameObject.Find("Canvas").transform.Find("GameOverPanel").gameObject;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        adManager = GameObject.Find("AdManager").GetComponent<AdManager>();
     }
 
     public void ShowPanel()
@@ -43,10 +40,16 @@ public class GameManager : MonoBehaviour
 
     public void RestartGame()
     {
-        StartCoroutine(Restart());
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        isPlaying = true;
     }
 
-    IEnumerator Restart()
+    public void ResumeGame()
+    {
+        StartCoroutine(Resume());
+    }
+
+    IEnumerator Resume()
     {
         HidePanel();
         yield return new WaitForSeconds(3f);
