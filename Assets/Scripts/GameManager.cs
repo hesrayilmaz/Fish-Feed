@@ -38,7 +38,23 @@ public class GameManager : MonoBehaviour
     }
     public void HidePanel()
     {
-        isPlaying = true;
         gameOverPanel.SetActive(false);
+    }
+
+    public void RestartGame()
+    {
+        StartCoroutine(Restart());
+    }
+
+    IEnumerator Restart()
+    {
+        HidePanel();
+        yield return new WaitForSeconds(3f);
+        isPlaying = true;
+    }
+
+    public void ExitGame()
+    {
+        Application.Quit();
     }
 }
