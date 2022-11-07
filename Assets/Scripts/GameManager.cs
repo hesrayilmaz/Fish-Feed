@@ -2,17 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using DG.Tweening;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    private GameObject gameOverPanel;
+    [SerializeField] private GameObject gameOverPanel;
+    [SerializeField] private GameObject countdown;
+    [SerializeField] private GameObject player;
+
     public bool isPlaying = true;
 
     // Start is called before the first frame update
     void Start()
     {
-        gameOverPanel = GameObject.Find("Canvas").transform.Find("GameOverPanel").gameObject;
+
     }
 
     public void ShowPanel()
@@ -28,7 +31,6 @@ public class GameManager : MonoBehaviour
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        //isPlaying = true;
     }
 
     public void ResumeGame()
@@ -38,9 +40,22 @@ public class GameManager : MonoBehaviour
 
     IEnumerator Resume()
     {
+        TextMeshProUGUI countdownText = countdown.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
         HidePanel();
-        yield return new WaitForSeconds(3f);
+        countdown.SetActive(true);
+        int counter = 3;
+
+        while (counter > 0)
+        {
+            countdownText.text = "" + counter;
+            yield return new WaitForSeconds(1);
+            counter--;
+        }
+        countdown.SetActive(false);
+        player.GetComponent<CapsuleCollider>().enabled = false;
         isPlaying = true;
+        yield return new WaitForSeconds(2f);
+        player.GetComponent<CapsuleCollider>().enabled = true;
     }
 
     public void ExitGame()
