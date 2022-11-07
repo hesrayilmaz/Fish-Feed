@@ -5,7 +5,7 @@ using DG.Tweening;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private Score score;
+    [SerializeField] private ScoreManager score;
     //[SerializeField] private float forwardSpeed;
     private int desiredLane = 1;  //0:left, 1:middle, 2:right
     [SerializeField] private float laneDistance = 8;  //distance between two lanes
