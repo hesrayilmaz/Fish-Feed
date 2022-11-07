@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float laneDistance = 8;  //distance between two lanes
     private float forwardSpeed = 0.1f;
 
+    [SerializeField] private GameManager gameManager;
     [SerializeField] private SimpleAnimancer animancer;
     [SerializeField] private TileManager tileManager;
     [SerializeField] private string swimAnimName = "Swim";
@@ -27,7 +28,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.instance.isPlaying)
+        if (gameManager.isPlaying)
         {
             if (Input.GetKeyDown(KeyCode.RightArrow))
             {
@@ -122,7 +123,7 @@ public class PlayerController : MonoBehaviour
 
     public void GameOver()
     {
-        GameManager.instance.ShowPanel();
+        gameManager.ShowPanel();
     }
 
     public void SwimAnimation()

@@ -15326,7 +15326,7 @@ Transform:
   - {fileID: 186922236}
   - {fileID: 210070433}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &801406369
 PrefabInstance:
@@ -26514,6 +26514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 2036463892}
   laneDistance: 8
+  gameManager: {fileID: 1833169073}
   animancer: {fileID: 1702553085}
   tileManager: {fileID: 1672534110}
   swimAnimName: Armature_Swim
@@ -32090,7 +32091,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1675340117
 PrefabInstance:

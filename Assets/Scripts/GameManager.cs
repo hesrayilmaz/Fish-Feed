@@ -6,26 +6,13 @@ using DG.Tweening;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instance;
     private GameObject gameOverPanel;
     public bool isPlaying = true;
-
-    private void Awake()
-    {
-        if (instance != null)
-            Destroy(gameObject);
-        else
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-    }
 
     // Start is called before the first frame update
     void Start()
     {
         gameOverPanel = GameObject.Find("Canvas").transform.Find("GameOverPanel").gameObject;
-        adManager = GameObject.Find("AdManager").GetComponent<AdManager>();
     }
 
     public void ShowPanel()
@@ -41,7 +28,7 @@ public class GameManager : MonoBehaviour
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        isPlaying = true;
+        //isPlaying = true;
     }
 
     public void ResumeGame()

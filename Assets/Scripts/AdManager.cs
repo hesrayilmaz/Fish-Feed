@@ -7,24 +7,11 @@ using System;
 
 public class AdManager : MonoBehaviour
 {
-    public static AdManager AdManagerInstance;
-
     public RewardedAd rewardedAd;
     public InterstitialAd interstitialAd;
 
     public bool isRewardedAdShown = false;
 
-
-    private void Awake()
-    {
-        if (AdManagerInstance != null)
-            Destroy(gameObject);
-        else
-        {
-            AdManagerInstance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-    }
 
     private void Start()
     {
@@ -82,7 +69,7 @@ public class AdManager : MonoBehaviour
 
     private void EarnReward()
     {
-        GameManager.instance.ResumeGame();
+        GameObject.Find("GameManager").GetComponent<GameManager>().ResumeGame();
     }
 
     public void ShowInterstitialAd()
@@ -105,7 +92,7 @@ public class AdManager : MonoBehaviour
     {
         DestroyInterstitialAd();
         RequestInterstitialAd();
-        GameManager.instance.RestartGame();
+        GameObject.Find("GameManager").GetComponent<GameManager>().RestartGame();
     }
 
     private void DestroyInterstitialAd()

@@ -5,12 +5,14 @@ using UnityEngine;
 public class EnvironmentManager : MonoBehaviour
 {
     [SerializeField] private Transform totalEnv, env1, env2;
+    private GameManager gameManager;
     private bool isFirstEnv = true;
     private float offsetZ;
 
     // Start is called before the first frame update
     void Start()
     {
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         offsetZ = transform.position.z - totalEnv.position.z +200;
     }
 
@@ -27,7 +29,7 @@ public class EnvironmentManager : MonoBehaviour
 
     private void Update()
     {
-        if(GameManager.instance.isPlaying)
+        if(gameManager.isPlaying)
             totalEnv.Translate(Vector3.forward * Time.deltaTime * 15f);    
     }
 
