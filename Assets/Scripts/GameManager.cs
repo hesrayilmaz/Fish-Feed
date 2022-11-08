@@ -10,14 +10,16 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject countdown;
     [SerializeField] private GameObject player;
 
-    public bool isPlaying = true;
+    public bool isPlaying;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        isPlaying = false;
+        StartCoroutine(Play());
     }
 
+    
     public void ShowPanel()
     {
         isPlaying = false;
@@ -35,10 +37,10 @@ public class GameManager : MonoBehaviour
 
     public void ResumeGame()
     {
-        StartCoroutine(Resume());
+        StartCoroutine(Play());
     }
 
-    IEnumerator Resume()
+    IEnumerator Play()
     {
         TextMeshProUGUI countdownText = countdown.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
         HidePanel();
