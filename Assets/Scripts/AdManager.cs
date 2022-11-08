@@ -32,7 +32,6 @@ public class AdManager : MonoBehaviour
 
     }
 
-
     public void ShowRewardedAd()
     {
         if (rewardedAd != null && rewardedAd.IsLoaded())

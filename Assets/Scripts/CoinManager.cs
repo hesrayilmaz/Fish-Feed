@@ -10,8 +10,8 @@ public class CoinManager : MonoBehaviour
 
     private void Start()
     {
-        //coin = PlayerPrefs.GetInt("coin");
-        coin = 0;
+        coin = PlayerPrefs.GetInt("coin");
+        //coin = 0;
     }
     private void Update()
     {

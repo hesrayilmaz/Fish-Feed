@@ -58,6 +58,11 @@ public class GameManager : MonoBehaviour
         player.GetComponent<CapsuleCollider>().enabled = true;
     }
 
+    public void GoToShop()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-1);
+    }
+
     public void ExitGame()
     {
         Application.Quit();

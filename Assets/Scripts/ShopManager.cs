@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using TMPro;
 
-public class StoreManager : MonoBehaviour
+public class ShopManager : MonoBehaviour
 {
     [SerializeField] private CoinManager coinManager;
 
