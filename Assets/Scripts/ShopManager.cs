@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class ShopManager : MonoBehaviour
 {
@@ -46,5 +47,10 @@ public class ShopManager : MonoBehaviour
         int.TryParse(buttonParent.Substring(4), out selectedFish);
         Debug.Log("FISH NUMBER " + selectedFish);
         PlayerPrefs.SetInt("selectedCharacter", selectedFish);
+    }
+
+    public void PlayGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
