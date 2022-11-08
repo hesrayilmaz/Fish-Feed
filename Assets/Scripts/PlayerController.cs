@@ -5,8 +5,7 @@ using DG.Tweening;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private ScoreManager score;
-    //[SerializeField] private float forwardSpeed;
+    [SerializeField] private CoinManager coin;
     private int desiredLane = 1;  //0:left, 1:middle, 2:right
     [SerializeField] private float laneDistance = 8;  //distance between two lanes
     private float forwardSpeed = 0.1f;
@@ -70,38 +69,38 @@ public class PlayerController : MonoBehaviour
     {
        if (other.gameObject.tag == "Steak")
        {
-            score.IncreaseScore(15);
+            coin.IncreaseCoin(15);
             Destroy(other.gameObject);
             IncreaseSize();
             isSpeedUp = true;
        }
        else if (other.gameObject.tag == "Fish")
        {
-            score.IncreaseScore(10);
+            coin.IncreaseCoin(10);
             Destroy(other.gameObject);
             IncreaseSize();
         }
         else if (other.gameObject.tag == "BonusFish")
        {
-            score.IncreaseScore(15);
+            coin.IncreaseCoin(15);
             Destroy(other.gameObject);
             IncreaseSize();
         }
        else if (other.gameObject.tag == "FishBone")
        {
-            score.IncreaseScore(5);
+            coin.IncreaseCoin(5);
             Destroy(other.gameObject);
             IncreaseSize();
        }
        else if (other.gameObject.tag == "Trash")
        {
-            score.DecreaseScore(10);
+            coin.DecreaseCoin(10);
             Destroy(other.gameObject);
             DecreaseSize();
         }
        else if (other.gameObject.tag == "Obstacle")
        {
-            score.DecreaseScore(10);
+            coin.DecreaseCoin(10);
        }
        else if(other.gameObject.tag == "Shark" || other.gameObject.tag == "Hook")
         {
@@ -113,12 +112,12 @@ public class PlayerController : MonoBehaviour
 
     public void IncreaseSize()
     {
-        transform.DOScale(transform.localScale + new Vector3(0.02f, 0.01f, 0.01f), 0.1f);
+        transform.DOScale(transform.localScale + new Vector3(0.005f, 0.005f, 0.005f), 0.1f);
     }
 
     public void DecreaseSize()
     {
-        transform.DOScale(transform.localScale - new Vector3(0.02f, 0.01f, 0.01f), 0.1f);
+        transform.DOScale(transform.localScale - new Vector3(0.005f, 0.005f, 0.005f), 0.1f);
     }
 
     public void GameOver()
