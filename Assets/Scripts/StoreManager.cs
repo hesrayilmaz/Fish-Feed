@@ -26,8 +26,10 @@ public class StoreManager : MonoBehaviour
         if (fishValue <= totalCoin)
         {
             string buttonParent = selectedButton.transform.parent.name;
+            Debug.Log("WHICH FISH IS BOUGHT " + buttonParent);
             int.TryParse(buttonParent.Substring(4), out selectedFish);
             coinManager.SetCoin(totalCoin - fishValue);
+            Debug.Log("FISH NUMBER " + selectedFish);
             PlayerPrefs.SetInt("selectedCharacter", selectedFish);
             selectedButton.SetActive(false);
             previousCharacter.transform.Find("Selected").gameObject.SetActive(false);
@@ -40,7 +42,9 @@ public class StoreManager : MonoBehaviour
         GameObject selectedButton = EventSystem.current.currentSelectedGameObject.gameObject;
         int selectedFish;
         string buttonParent = selectedButton.transform.parent.name;
+        Debug.Log("WHICH FISH IS SELECTED "+ buttonParent);
         int.TryParse(buttonParent.Substring(4), out selectedFish);
+        Debug.Log("FISH NUMBER " + selectedFish);
         PlayerPrefs.SetInt("selectedCharacter", selectedFish);
     }
 }

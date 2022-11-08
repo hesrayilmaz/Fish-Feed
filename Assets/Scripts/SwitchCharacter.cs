@@ -10,6 +10,7 @@ public class SwitchCharacter : MonoBehaviour
     void Start()
     {
         selectedCharacter = PlayerPrefs.GetInt("selectedCharacter");
+        Debug.Log("START THE GAME WITH THE FISH NUMBER: " + selectedCharacter);
         Switch();
     }
 
@@ -17,8 +18,8 @@ public class SwitchCharacter : MonoBehaviour
     public void Switch()
     {
         //for (int i = 0; i <= transform.childCount; i++)
-          //  transform.GetChild(i).gameObject.SetActive(false);
-
-        transform.GetChild(selectedCharacter).gameObject.SetActive(true);
+        //  transform.GetChild(i).gameObject.SetActive(false);
+        Debug.Log("START THE GAME WITH THE FISH NAME: " + transform.GetChild(selectedCharacter-1).gameObject.name);
+        transform.GetChild(selectedCharacter-1).gameObject.SetActive(true);
     }
 }
