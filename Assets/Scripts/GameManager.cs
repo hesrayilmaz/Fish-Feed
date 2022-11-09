@@ -54,10 +54,10 @@ public class GameManager : MonoBehaviour
             counter--;
         }
         countdown.SetActive(false);
-        player.GetComponent<CapsuleCollider>().enabled = false;
+        player.GetComponent<BoxCollider>().enabled = false;
         isPlaying = true;
         yield return new WaitForSeconds(2f);
-        player.GetComponent<CapsuleCollider>().enabled = true;
+        player.GetComponent<BoxCollider>().enabled = true;
     }
 
     public void GoToShop()

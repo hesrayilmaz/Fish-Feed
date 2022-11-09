@@ -18,35 +18,51 @@ public class ShopManager : MonoBehaviour
 
     public void BuyCharacter()
     {
+        Debug.Log("BUYYYYYYYYYYYYYYY");
         GameObject selectedButton = EventSystem.current.currentSelectedGameObject.gameObject; 
-        GameObject previousCharacter = GameObject.Find("Canvas").transform.Find("Buttons").transform.GetChild(PlayerPrefs.GetInt("selectedCharacter")).gameObject;
+        
         int fishValue;
-        int selectedFish;
         int totalCoin = coinManager.GetCoin();
         int.TryParse(selectedButton.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text, out fishValue);
+
         if (fishValue <= totalCoin)
         {
-            string buttonParent = selectedButton.transform.parent.name;
-            Debug.Log("WHICH FISH IS BOUGHT " + buttonParent);
-            int.TryParse(buttonParent.Substring(4), out selectedFish);
+            string selectedFish = selectedButton.transform.parent.name;
+
+            GameObject previousSelected = GameObject.Find("Canvas").transform.Find("ShopButtonsController").transform.Find(PlayerPrefs.GetString("selectedCharacter")).gameObject;
+            
+            previousSelected.transform.Find("Selected").gameObject.SetActive(false);
+            previousSelected.transform.Find("SelectButton").gameObject.SetActive(true);
+
+            Debug.Log("WHICH FISH IS BOUGHT " + selectedFish);
+            
             coinManager.SetCoin(totalCoin - fishValue);
-            Debug.Log("FISH NUMBER " + selectedFish);
-            PlayerPrefs.SetInt("selectedCharacter", selectedFish);
+            
+            PlayerPrefs.SetString("selectedCharacter", selectedFish);
+            string purchasedCharacters = PlayerPrefs.GetString("purchasedCharacters");
+            purchasedCharacters += "," + selectedFish;
+            PlayerPrefs.SetString("purchasedCharacters", purchasedCharacters);
+
+            selectedButton.transform.parent.transform.Find("Selected").gameObject.SetActive(true);
             selectedButton.SetActive(false);
-            previousCharacter.transform.Find("Selected").gameObject.SetActive(false);
-            previousCharacter.transform.Find("SelectButton").gameObject.SetActive(true);
         }
     }
 
     public void SelectCharacter()
     {
         GameObject selectedButton = EventSystem.current.currentSelectedGameObject.gameObject;
-        int selectedFish;
-        string buttonParent = selectedButton.transform.parent.name;
-        Debug.Log("WHICH FISH IS SELECTED "+ buttonParent);
-        int.TryParse(buttonParent.Substring(4), out selectedFish);
-        Debug.Log("FISH NUMBER " + selectedFish);
-        PlayerPrefs.SetInt("selectedCharacter", selectedFish);
+        
+        string selectedFish = selectedButton.transform.parent.name;
+        Debug.Log("WHICH FISH IS SELECTED "+ selectedFish);
+
+        GameObject previousSelected = GameObject.Find("Canvas").transform.Find("ShopButtonsController").transform.Find(PlayerPrefs.GetString("selectedCharacter")).gameObject;
+
+        previousSelected.transform.Find("Selected").gameObject.SetActive(false);
+        previousSelected.transform.Find("SelectButton").gameObject.SetActive(true);
+
+        PlayerPrefs.SetString("selectedCharacter", selectedFish);
+        selectedButton.transform.parent.transform.Find("Selected").gameObject.SetActive(true);
+        selectedButton.SetActive(false);
     }
 
     public void PlayGame()

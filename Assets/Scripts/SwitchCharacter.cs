@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class SwitchCharacter : MonoBehaviour
 {
-    private int selectedCharacter;
+    private string selectedCharacter;
 
     // Start is called before the first frame update
     void Start()
     {
-        selectedCharacter = PlayerPrefs.GetInt("selectedCharacter");
+        selectedCharacter = PlayerPrefs.GetString("selectedCharacter");
         Debug.Log("START THE GAME WITH THE FISH NUMBER: " + selectedCharacter);
         Switch();
     }
@@ -19,7 +19,7 @@ public class SwitchCharacter : MonoBehaviour
     {
         //for (int i = 0; i <= transform.childCount; i++)
         //  transform.GetChild(i).gameObject.SetActive(false);
-        Debug.Log("START THE GAME WITH THE FISH NAME: " + transform.GetChild(selectedCharacter-1).gameObject.name);
-        transform.GetChild(selectedCharacter-1).gameObject.SetActive(true);
+        Debug.Log("START THE GAME WITH THE FISH NAME: " + transform.Find(selectedCharacter).gameObject.name);
+        transform.Find(selectedCharacter).gameObject.SetActive(true);
     }
 }

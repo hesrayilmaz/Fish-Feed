@@ -15,16 +15,18 @@ public class CoinManager : MonoBehaviour
     }
     private void Update()
     {
-        coinText.text = "" + coin;
+        coinText.text = "" + PlayerPrefs.GetInt("coin");
     }
 
     public void IncreaseCoin(int point)
     {
+        coin = PlayerPrefs.GetInt("coin");
         coin += point;
         PlayerPrefs.SetInt("coin", coin);
     }
     public void DecreaseCoin(int point)
     {
+        coin = PlayerPrefs.GetInt("coin");
         if (coin - point < 0)
             coin = 0;
         else coin -= point;
