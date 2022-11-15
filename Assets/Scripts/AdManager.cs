@@ -68,6 +68,7 @@ public class AdManager : MonoBehaviour
 
     private void EarnReward()
     {
+        PlayerPrefs.SetString("EarnedHeart","true");
         GameObject.Find("GameManager").GetComponent<GameManager>().ResumeGame();
     }
 

@@ -9,12 +9,7 @@ public class ExtraHeartButton : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (isStartedNew)
-        {
-            isStartedNew = false;
-        }
-        else
-            gameObject.SetActive(false);
+        
     }
 
 }

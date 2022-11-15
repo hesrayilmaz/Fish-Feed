@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
         StartCoroutine(Play());
         player = GameObject.Find("PlayerController").transform.GetComponentsInChildren<Transform>()[1].gameObject;
         Debug.Log("WHICH PLAYER IS ACTIVE: "+player.name);
+        PlayerPrefs.SetString("EarnedHeart","false");
     }
 
     
@@ -25,6 +26,8 @@ public class GameManager : MonoBehaviour
     {
         isPlaying = false;
         gameOverPanel.SetActive(true);
+        if (PlayerPrefs.GetString("EarnedHeart") == "true")
+            gameOverPanel.transform.Find("ExtraHeartButton").gameObject.SetActive(false);
     }
     public void HidePanel()
     {
