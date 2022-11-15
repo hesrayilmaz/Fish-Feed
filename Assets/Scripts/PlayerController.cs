@@ -6,14 +6,14 @@ using DG.Tweening;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private CoinManager coin;
-    private int desiredLane = 1;  //0:left, 1:middle, 2:right
-    [SerializeField] private float laneDistance = 8;  //distance between two lanes
-    private float forwardSpeed = 0.1f;
-
+    [SerializeField] private ScoreManager score;
     [SerializeField] private GameManager gameManager;
     [SerializeField] private TileManager tileManager;
-    [SerializeField] private string swimAnimName = "Swim";
-    [SerializeField] private float swimAnimSpeed = 3f;
+    [SerializeField] private float laneDistance = 8;  //distance between two lanes
+    
+
+    private int desiredLane = 1;  //0:left, 1:middle, 2:right
+    private float forwardSpeed = 0.1f;
     private bool isSpeedUp = false;
     private bool isStarted = true;
     private Animator animator;
@@ -74,6 +74,7 @@ public class PlayerController : MonoBehaviour
        if (other.gameObject.tag == "Steak")
        {
             coin.IncreaseCoin(15);
+            score.IncreaseScore();
             Destroy(other.gameObject);
             IncreaseSize();
             isSpeedUp = true;
@@ -81,18 +82,14 @@ public class PlayerController : MonoBehaviour
        else if (other.gameObject.tag == "Fish")
        {
             coin.IncreaseCoin(10);
+            score.IncreaseScore();
             Destroy(other.gameObject);
             IncreaseSize();
         }
         else if (other.gameObject.tag == "BonusFish")
        {
             coin.IncreaseCoin(15);
-            Destroy(other.gameObject);
-            IncreaseSize();
-        }
-       else if (other.gameObject.tag == "FishBone")
-       {
-            coin.IncreaseCoin(5);
+            score.IncreaseScore();
             Destroy(other.gameObject);
             IncreaseSize();
        }
