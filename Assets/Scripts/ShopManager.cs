@@ -54,7 +54,7 @@ public class ShopManager : MonoBehaviour
         Debug.Log("WHICH FISH IS SELECTED "+ selectedFish);
 
         GameObject previousSelected = GameObject.Find("Canvas").transform.Find("ShopButtonsController").transform.Find(PlayerPrefs.GetString("selectedCharacter")).gameObject;
-
+        Debug.Log("PREVIOUS SELECTED: " + previousSelected);
         previousSelected.transform.Find("Selected").gameObject.SetActive(false);
         previousSelected.transform.Find("SelectButton").gameObject.SetActive(true);
 
