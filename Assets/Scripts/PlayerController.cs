@@ -11,22 +11,27 @@ public class PlayerController : MonoBehaviour
     private float forwardSpeed = 0.1f;
 
     [SerializeField] private GameManager gameManager;
-    [SerializeField] private SimpleAnimancer animancer;
     [SerializeField] private TileManager tileManager;
     [SerializeField] private string swimAnimName = "Swim";
     [SerializeField] private float swimAnimSpeed = 3f;
     private bool isSpeedUp = false;
-
+    private bool isStarted = true;
+    private Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
-        SwimAnimation();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (isStarted)
+        {
+            animator = transform.GetComponentsInChildren<Transform>()[1].gameObject.GetComponentsInChildren<Animator>()[0];
+            isStarted = false;
+        }
+
         if (gameManager.isPlaying)
         {
             if (Input.GetKeyDown(KeyCode.RightArrow))
@@ -43,7 +48,6 @@ public class PlayerController : MonoBehaviour
             if (isSpeedUp)
             {
                 StartCoroutine(Speed());
-
             }
 
             if (transform.position.z >= tileManager.GetDestroyPoint())
@@ -125,25 +129,12 @@ public class PlayerController : MonoBehaviour
         gameManager.ShowPanel();
     }
 
-    public void SwimAnimation()
-    {
-        PlayAnimation(swimAnimName, swimAnimSpeed);
-    }
-    public void PlayAnimation(string animName, float animSpeed)
-    {
-        animancer.PlayAnimation(animName);
-        animancer.SetStateSpeed(animSpeed);
-    }
-
-
     IEnumerator Speed()
     {
         transform.DOMoveZ(1f, 0.01f).SetRelative();
-        swimAnimSpeed = 8f;
-        SwimAnimation();
+        animator.speed = 4;
         yield return new WaitForSeconds(0.3f);
-        swimAnimSpeed = 3f;
-        SwimAnimation();
+        animator.speed = 1;
         isSpeedUp = false;
     }
 

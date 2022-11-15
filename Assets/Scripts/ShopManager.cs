@@ -15,10 +15,8 @@ public class ShopManager : MonoBehaviour
         
     }
 
-
     public void BuyCharacter()
     {
-        Debug.Log("BUYYYYYYYYYYYYYYY");
         GameObject selectedButton = EventSystem.current.currentSelectedGameObject.gameObject; 
         
         int fishValue;

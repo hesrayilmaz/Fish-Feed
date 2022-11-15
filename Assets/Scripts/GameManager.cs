@@ -8,8 +8,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject gameOverPanel;
     [SerializeField] private GameObject countdown;
-    [SerializeField] private GameObject player;
-
+    private GameObject player;
     public bool isPlaying;
 
     // Start is called before the first frame update
@@ -17,6 +16,8 @@ public class GameManager : MonoBehaviour
     {
         isPlaying = false;
         StartCoroutine(Play());
+        player = GameObject.Find("PlayerController").transform.GetComponentsInChildren<Transform>()[1].gameObject;
+        Debug.Log("WHICH PLAYER IS ACTIVE: "+player.name);
     }
 
     
