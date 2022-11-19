@@ -630,8 +630,6 @@ GameObject:
   - component: {fileID: 2836260000932343086}
   - component: {fileID: 2366309606845013605}
   - component: {fileID: 5229317699354099374}
-  - component: {fileID: -6983940608144236227}
-  - component: {fileID: -5575112048680666037}
   m_Layer: 0
   m_Name: shark_modeling
   m_TagString: Shark
@@ -690,37 +688,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3640009273208903192, guid: d31a15e4aa626c949b4051163d253f37, type: 3}
---- !u!114 &-6983940608144236227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3177214620205643668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 792d8172ee93afd43ad8e501af53a13f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _animancer: {fileID: -5575112048680666037}
-  _fadeDuration: 0.1
-  _clips:
-  - {fileID: 7400000, guid: 64c0874797fcfd24f9ad9954a7975567, type: 2}
-  _playDefault: 1
---- !u!114 &-5575112048680666037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3177214620205643668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad50f81b1d25c441943c37a89ba23f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _Animator: {fileID: 2366309606845013605}
-  _ActionOnDisable: 0
 --- !u!1 &3223207699063998763
 GameObject:
   m_ObjectHideFlags: 0

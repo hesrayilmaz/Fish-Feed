@@ -8,9 +8,6 @@ public class ShopButtonsController : MonoBehaviour
     void Start()
     {
 
-        PlayerPrefs.GetString("selectedCharacter", "Fish1");
-        PlayerPrefs.GetString("purchasedCharacters", "Fish1");
-
         for (int i=0; i<transform.childCount; i++)
         {
             transform.GetChild(i).transform.Find("BuyButton").gameObject.SetActive(true);
@@ -18,7 +15,7 @@ public class ShopButtonsController : MonoBehaviour
 
         Debug.Log("PlayerPrefs.GetString(purchasedCharacters) "+PlayerPrefs.GetString("purchasedCharacters"));
         
-        string[] purchasedCharacters = PlayerPrefs.GetString("purchasedCharacters").Split(",");
+        string[] purchasedCharacters = PlayerPrefs.GetString("purchasedCharacters", "Fish1").Split(",");
         foreach (string fish in purchasedCharacters)
         {
             Debug.Log("fish name: " + fish);
@@ -26,7 +23,7 @@ public class ShopButtonsController : MonoBehaviour
             transform.Find(fish).transform.Find("SelectButton").gameObject.SetActive(true);
         }
 
-        Transform selectedCharacter = transform.Find(PlayerPrefs.GetString("selectedCharacter")).transform;
+        Transform selectedCharacter = transform.Find(PlayerPrefs.GetString("selectedCharacter", "Fish1")).transform;
         selectedCharacter.Find("Selected").gameObject.SetActive(true);
         selectedCharacter.Find("SelectButton").gameObject.SetActive(false);
     }

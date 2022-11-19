@@ -17767,6 +17767,7 @@ MonoBehaviour:
   gameManager: {fileID: 1833169073}
   tileManager: {fileID: 1672534110}
   laneDistance: 8
+  forwardSpeed: 10
 --- !u!114 &1392142593
 MonoBehaviour:
   m_ObjectHideFlags: 0

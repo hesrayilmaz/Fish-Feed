@@ -9,8 +9,7 @@ public class SwitchCharacter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        selectedCharacter = PlayerPrefs.GetString("selectedCharacter");
-        Debug.Log("START THE GAME WITH THE FISH NUMBER: " + selectedCharacter);
+        selectedCharacter = PlayerPrefs.GetString("selectedCharacter","Fish1");
         Switch();
     }
 

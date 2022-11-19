@@ -10,10 +10,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameManager gameManager;
     [SerializeField] private TileManager tileManager;
     [SerializeField] private float laneDistance = 8;  //distance between two lanes
-    
+    [SerializeField] private float forwardSpeed;
 
     private int desiredLane = 1;  //0:left, 1:middle, 2:right
-    private float forwardSpeed = 0.1f;
+    //private float forwardSpeed = 0.1f;
     private bool isSpeedUp = false;
     private bool isStarted = true;
     private Animator animator;
@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        animator.speed = 0.5f;
     }
 
     // Update is called once per frame
@@ -52,18 +53,19 @@ public class PlayerController : MonoBehaviour
 
             if (transform.position.z >= tileManager.GetDestroyPoint())
             {
-                forwardSpeed -= 0.002f;
+                forwardSpeed += 1.5f;
             }
-
-            transform.DOMoveZ(1f, forwardSpeed).SetRelative();
-
+           
+            transform.Translate(Vector3.forward * Time.deltaTime * forwardSpeed);
+            
             Vector3 targetPos = transform.position.z * transform.forward + transform.position.y * transform.up;
             if (desiredLane == 0)
                 targetPos += Vector3.left * laneDistance;
             else if (desiredLane == 2)
                 targetPos += Vector3.right * laneDistance;
 
-            transform.DOMove(targetPos, 0.8f);
+            transform.position = Vector3.Lerp(transform.position, targetPos, Time.deltaTime * 10);
+
         }
         
     }
@@ -128,10 +130,10 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator Speed()
     {
-        transform.DOMoveZ(1f, 0.01f).SetRelative();
-        animator.speed = 4;
+        transform.Translate(Vector3.forward * Time.deltaTime * forwardSpeed * 10);
+        animator.speed = 2;
         yield return new WaitForSeconds(0.3f);
-        animator.speed = 1;
+        animator.speed = 0.5f;
         isSpeedUp = false;
     }
 

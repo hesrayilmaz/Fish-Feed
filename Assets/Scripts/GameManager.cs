@@ -10,18 +10,27 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject countdown;
     private GameObject player;
     public bool isPlaying;
+    private bool isStarted;
 
     // Start is called before the first frame update
     void Start()
     {
         isPlaying = false;
-        StartCoroutine(Play());
-        player = GameObject.Find("PlayerController").transform.GetComponentsInChildren<Transform>()[1].gameObject;
-        Debug.Log("WHICH PLAYER IS ACTIVE: "+player.name);
+        isStarted = true;
         PlayerPrefs.SetString("EarnedHeart","false");
     }
 
-    
+    private void Update()
+    {
+        if (isStarted)
+        {
+            player = GameObject.Find("PlayerController").transform.GetComponentsInChildren<Transform>()[1].gameObject;
+            Debug.Log("WHICH PLAYER IS ACTIVE: " + player.name);
+            isStarted = false;
+            StartCoroutine(Play());
+        }
+    }
+
     public void ShowPanel()
     {
         isPlaying = false;
