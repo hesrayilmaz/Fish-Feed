@@ -55,6 +55,7 @@ public class PlayerController : MonoBehaviour
             if (transform.position.z >= tileManager.GetDestroyPoint())
             {
                 forwardSpeed += 2f;
+                Debug.Log("INCREASE SPEED");
             }
            
             transform.Translate(Vector3.forward * Time.deltaTime * forwardSpeed);
@@ -132,7 +133,7 @@ public class PlayerController : MonoBehaviour
     IEnumerator Speed()
     {
         transform.Translate(Vector3.forward * Time.deltaTime * forwardSpeed * 10);
-        animator.speed = 2;
+        animator.speed = 3;
         yield return new WaitForSeconds(0.3f);
         animator.speed = 1f;
         isSpeedUp = false;

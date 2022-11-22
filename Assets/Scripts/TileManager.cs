@@ -23,7 +23,7 @@ public class TileManager : MonoBehaviour
         activeTiles.Add(firstTile);
         tileIndex = 0;
         tilePos = new Vector3(0, 45, 190);
-        destroyPoint = playerTransform.position.z + 300;
+        destroyPoint = playerTransform.position.z + 250;
     }
 
     // Update is called once per frame

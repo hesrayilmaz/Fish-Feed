@@ -17767,7 +17767,7 @@ MonoBehaviour:
   gameManager: {fileID: 1833169073}
   tileManager: {fileID: 1672534110}
   laneDistance: 8
-  forwardSpeed: 10
+  forwardSpeed: 12
 --- !u!114 &1392142593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18577,7 +18577,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -120, y: 440}
-  m_SizeDelta: {x: 700, y: 200}
+  m_SizeDelta: {x: 700, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1434578422
 MonoBehaviour:
@@ -18662,7 +18662,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -328.36353, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -21076,8 +21076,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -120, y: 30}
-  m_SizeDelta: {x: 700, y: 200}
+  m_AnchoredPosition: {x: -70, y: 30}
+  m_SizeDelta: {x: 800, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1605356247
 MonoBehaviour:
@@ -21099,7 +21099,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'High Score:'
+  m_text: "High Score: \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e06291a08a1d8784ba883813bd755610, type: 2}
   m_sharedMaterial: {fileID: -5338577575115576257, guid: e06291a08a1d8784ba883813bd755610, type: 2}
@@ -21162,7 +21162,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -253.02698, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -22184,11 +22184,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1307342273507338845, guid: d6eeaea69e1f51f48aa19392a2f1e101, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5302998221546007313, guid: d6eeaea69e1f51f48aa19392a2f1e101, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5598051467179839675, guid: d6eeaea69e1f51f48aa19392a2f1e101, type: 3}
       propertyPath: m_Name
@@ -22196,11 +22196,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6348648808984796993, guid: d6eeaea69e1f51f48aa19392a2f1e101, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 6635504699057250177, guid: d6eeaea69e1f51f48aa19392a2f1e101, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 8656475206793103374, guid: d6eeaea69e1f51f48aa19392a2f1e101, type: 3}
       propertyPath: m_Materials.Array.data[0]
