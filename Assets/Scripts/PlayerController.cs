@@ -54,7 +54,7 @@ public class PlayerController : MonoBehaviour
 
             if (transform.position.z >= tileManager.GetDestroyPoint())
             {
-                forwardSpeed += 2f;
+                forwardSpeed += 2.5f;
                 Debug.Log("INCREASE SPEED");
             }
            
@@ -80,7 +80,7 @@ public class PlayerController : MonoBehaviour
             coin.IncreaseCoin(15);
             score.IncreaseScore();
             Destroy(other.gameObject);
-            IncreaseSize();
+           // IncreaseSize();
             isSpeedUp = true;
        }
        else if (other.gameObject.tag == "Fish")
@@ -88,20 +88,20 @@ public class PlayerController : MonoBehaviour
             coin.IncreaseCoin(10);
             score.IncreaseScore();
             Destroy(other.gameObject);
-            IncreaseSize();
+           // IncreaseSize();
         }
         else if (other.gameObject.tag == "BonusFish")
        {
             coin.IncreaseCoin(15);
             score.IncreaseScore();
             Destroy(other.gameObject);
-            IncreaseSize();
+           // IncreaseSize();
        }
        else if (other.gameObject.tag == "Trash")
        {
             coin.DecreaseCoin(10);
             Destroy(other.gameObject);
-            DecreaseSize();
+           // DecreaseSize();
         }
        else if (other.gameObject.tag == "Obstacle")
        {
@@ -115,7 +115,7 @@ public class PlayerController : MonoBehaviour
 
    }
 
-    public void IncreaseSize()
+   /* public void IncreaseSize()
     {
         transform.DOScale(transform.localScale + new Vector3(0.005f, 0.005f, 0.005f), 0.1f);
     }
@@ -124,7 +124,7 @@ public class PlayerController : MonoBehaviour
     {
         transform.DOScale(transform.localScale - new Vector3(0.005f, 0.005f, 0.005f), 0.1f);
     }
-
+   */
     public void GameOver()
     {
         gameManager.ShowPanel();
@@ -132,7 +132,7 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator Speed()
     {
-        transform.Translate(Vector3.forward * Time.deltaTime * forwardSpeed * 10);
+        transform.Translate(Vector3.forward * Time.deltaTime * 130);
         animator.speed = 3;
         yield return new WaitForSeconds(0.3f);
         animator.speed = 1f;

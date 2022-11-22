@@ -23,7 +23,7 @@ public class EnvironmentManager : MonoBehaviour
     private void Update()
     {
         if(gameManager.isPlaying)
-            totalEnv.Translate(Vector3.forward * Time.deltaTime * 10f);    
+            totalEnv.Translate(Vector3.forward * Time.deltaTime * 12f);    
     }
 
     void FixEnvironment()
