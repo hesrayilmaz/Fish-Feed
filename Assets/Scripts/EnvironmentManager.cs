@@ -35,7 +35,6 @@ public class EnvironmentManager : MonoBehaviour
 
     void FixEnvironment()
     {
-        //totalEnv.transform.position += new Vector3(0, 0, 30);
         if (isFirstEnv)
             env1.position = env2.position+new Vector3(0, 0, 625);
         else

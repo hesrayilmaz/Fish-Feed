@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        animator.speed = 0.5f;
+        
     }
 
     // Update is called once per frame
@@ -35,12 +35,13 @@ public class PlayerController : MonoBehaviour
 
         if (gameManager.isPlaying)
         {
-            if (Input.GetKeyDown(KeyCode.RightArrow))
+
+            if (Input.GetKeyDown(KeyCode.RightArrow) || SwipeManager.swipeRight)
             {
                 if (desiredLane != 2)
                     desiredLane++;
             }
-            else if (Input.GetKeyDown(KeyCode.LeftArrow))
+            else if (Input.GetKeyDown(KeyCode.LeftArrow) || SwipeManager.swipeLeft)
             {
                 if (desiredLane != 0)
                     desiredLane--;
@@ -53,7 +54,7 @@ public class PlayerController : MonoBehaviour
 
             if (transform.position.z >= tileManager.GetDestroyPoint())
             {
-                forwardSpeed += 1.5f;
+                forwardSpeed += 2f;
             }
            
             transform.Translate(Vector3.forward * Time.deltaTime * forwardSpeed);
@@ -133,7 +134,7 @@ public class PlayerController : MonoBehaviour
         transform.Translate(Vector3.forward * Time.deltaTime * forwardSpeed * 10);
         animator.speed = 2;
         yield return new WaitForSeconds(0.3f);
-        animator.speed = 0.5f;
+        animator.speed = 1f;
         isSpeedUp = false;
     }
 
