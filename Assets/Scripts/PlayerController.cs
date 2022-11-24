@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private ScoreManager score;
     [SerializeField] private GameManager gameManager;
     [SerializeField] private TileManager tileManager;
+    [SerializeField] private AudioSource bubbleAudio;
     [SerializeField] private float laneDistance = 8;  //distance between two lanes
     [SerializeField] private float forwardSpeed;
 
@@ -52,7 +53,7 @@ public class PlayerController : MonoBehaviour
                 StartCoroutine(Speed());
             }
 
-            if (transform.position.z >= tileManager.GetDestroyPoint())
+            if (transform.position.z >= tileManager.GetDestroyPoint()-0.1f)
             {
                 forwardSpeed += 2.5f;
                 Debug.Log("INCREASE SPEED");
@@ -80,6 +81,7 @@ public class PlayerController : MonoBehaviour
             coin.IncreaseCoin(15);
             score.IncreaseScore();
             Destroy(other.gameObject);
+            bubbleAudio.Play();
            // IncreaseSize();
             isSpeedUp = true;
        }
@@ -88,15 +90,17 @@ public class PlayerController : MonoBehaviour
             coin.IncreaseCoin(10);
             score.IncreaseScore();
             Destroy(other.gameObject);
-           // IncreaseSize();
+            bubbleAudio.Play();
+            // IncreaseSize();
         }
         else if (other.gameObject.tag == "BonusFish")
        {
             coin.IncreaseCoin(15);
             score.IncreaseScore();
             Destroy(other.gameObject);
-           // IncreaseSize();
-       }
+            bubbleAudio.Play();
+            // IncreaseSize();
+        }
        else if (other.gameObject.tag == "Trash")
        {
             coin.DecreaseCoin(10);
