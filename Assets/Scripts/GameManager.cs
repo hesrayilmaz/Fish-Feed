@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject gameOverPanel;
     [SerializeField] private GameObject countdown;
     [SerializeField] private AudioSource backgroundAudio;
+    [SerializeField] private AudioSource clickAudio;
 
     private GameObject player;
     public bool isPlaying;
@@ -79,11 +80,13 @@ public class GameManager : MonoBehaviour
 
     public void GoToShop()
     {
+        clickAudio.Play();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-1);
     }
 
     public void ExitGame()
     {
+        clickAudio.Play();
         Application.Quit();
     }
 }

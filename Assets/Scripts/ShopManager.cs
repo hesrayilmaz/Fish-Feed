@@ -8,6 +8,8 @@ using UnityEngine.SceneManagement;
 public class ShopManager : MonoBehaviour
 {
     [SerializeField] private CoinManager coinManager;
+    [SerializeField] private AudioSource clickAudio;
+    [SerializeField] private AudioSource wrongClickAudio;
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +19,7 @@ public class ShopManager : MonoBehaviour
 
     public void BuyCharacter()
     {
+
         GameObject selectedButton = EventSystem.current.currentSelectedGameObject.gameObject;
        
         int fishValue;
@@ -25,6 +28,7 @@ public class ShopManager : MonoBehaviour
         
         if (fishValue <= totalCoin)
         {
+            clickAudio.Play();
             string selectedFish = selectedButton.transform.parent.name;
             
             GameObject previousSelected = GameObject.Find("Canvas").transform.Find("Fishes").transform.Find(PlayerPrefs.GetString("selectedCharacter","Fish1")).gameObject;
@@ -45,10 +49,17 @@ public class ShopManager : MonoBehaviour
             selectedButton.transform.parent.transform.Find("Selected").gameObject.SetActive(true);
             selectedButton.SetActive(false);
         }
+        else
+        {
+            wrongClickAudio.Play();
+        }
+
     }
 
     public void SelectCharacter()
     {
+        clickAudio.Play();
+
         GameObject selectedButton = EventSystem.current.currentSelectedGameObject.gameObject;
         
         string selectedFish = selectedButton.transform.parent.name;
@@ -67,6 +78,7 @@ public class ShopManager : MonoBehaviour
 
     public void PlayGame()
     {
+        clickAudio.Play();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

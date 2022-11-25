@@ -12,6 +12,7 @@ public class AdManager : MonoBehaviour
 
     public bool isRewardedAdShown = false;
 
+    [SerializeField] private AudioSource clickAudio;
 
     private void Start()
     {
@@ -34,6 +35,8 @@ public class AdManager : MonoBehaviour
 
     public void ShowRewardedAd()
     {
+        clickAudio.Play();
+
         if (rewardedAd != null && rewardedAd.IsLoaded())
             rewardedAd.Show();
         else
@@ -74,6 +77,7 @@ public class AdManager : MonoBehaviour
 
     public void ShowInterstitialAd()
     {
+        clickAudio.Play();
         if (interstitialAd != null && interstitialAd.IsLoaded())
             interstitialAd.Show();
     }
