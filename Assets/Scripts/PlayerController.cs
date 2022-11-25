@@ -11,11 +11,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private TileManager tileManager;
     [SerializeField] private AudioSource bubbleAudio;
     [SerializeField] private AudioSource wrongItemAudio;
+    [SerializeField] private AudioSource gameOverAudio;
+
     [SerializeField] private float laneDistance = 8;  //distance between two lanes
     [SerializeField] private float forwardSpeed;
 
     private int desiredLane = 1;  //0:left, 1:middle, 2:right
-    //private float forwardSpeed = 0.1f;
     private bool isSpeedUp = false;
     private bool isStarted = true;
     private Animator animator;
@@ -117,7 +118,6 @@ public class PlayerController : MonoBehaviour
        else if(other.gameObject.tag == "Shark" || other.gameObject.tag == "Hook")
         {
             Debug.Log("GameOver");
-            wrongItemAudio.Play();
             GameOver();
         }
 
@@ -136,6 +136,7 @@ public class PlayerController : MonoBehaviour
     public void GameOver()
     {
         gameManager.ShowPanel();
+        gameOverAudio.Play();
     }
 
     IEnumerator Speed()

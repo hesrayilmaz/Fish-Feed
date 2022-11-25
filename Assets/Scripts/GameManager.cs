@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject gameOverPanel;
     [SerializeField] private GameObject countdown;
+    [SerializeField] private AudioSource backgroundAudio;
+
     private GameObject player;
     public bool isPlaying;
     private bool isStarted;
@@ -34,6 +36,7 @@ public class GameManager : MonoBehaviour
     public void ShowPanel()
     {
         isPlaying = false;
+        backgroundAudio.Stop();
         gameOverPanel.SetActive(true);
         if (PlayerPrefs.GetString("EarnedHeart") == "true")
             gameOverPanel.transform.Find("ExtraHeartButton").gameObject.SetActive(false);
@@ -41,6 +44,7 @@ public class GameManager : MonoBehaviour
     public void HidePanel()
     {
         gameOverPanel.SetActive(false);
+        backgroundAudio.Play();
     }
 
     public void RestartGame()
