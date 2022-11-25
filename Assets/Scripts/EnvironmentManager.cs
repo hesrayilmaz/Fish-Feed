@@ -17,14 +17,19 @@ public class EnvironmentManager : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Boundary")
+        {
+            Debug.Log("FIX ENV");
             FixEnvironment();
+        }
+            
     }
 
     private void Update()
     {
-        if(gameManager.isPlaying)
-            totalEnv.Translate(Vector3.forward * Time.deltaTime * 12f);    
-    }
+        /*if(gameManager.isPlaying)
+            totalEnv.Translate(Vector3.forward * Time.deltaTime * 10f);    
+    */
+        }
 
     void FixEnvironment()
     {
@@ -32,7 +37,6 @@ public class EnvironmentManager : MonoBehaviour
             env1.position = env2.position+new Vector3(0, 0, 625);
         else
             env2.position = env1.position+new Vector3(0, 0, 625);
-
         isFirstEnv = !isFirstEnv;
     }
 }
