@@ -17,27 +17,29 @@ public class ShopManager : MonoBehaviour
 
     public void BuyCharacter()
     {
-        GameObject selectedButton = EventSystem.current.currentSelectedGameObject.gameObject; 
-        
+        GameObject selectedButton = EventSystem.current.currentSelectedGameObject.gameObject;
+       
         int fishValue;
         int totalCoin = coinManager.GetCoin();
         int.TryParse(selectedButton.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text, out fishValue);
-
+        
         if (fishValue <= totalCoin)
         {
             string selectedFish = selectedButton.transform.parent.name;
-
-            GameObject previousSelected = GameObject.Find("Canvas").transform.Find("ShopButtonsController").transform.Find(PlayerPrefs.GetString("selectedCharacter")).gameObject;
             
+            GameObject previousSelected = GameObject.Find("Canvas").transform.Find("Fishes").transform.Find(PlayerPrefs.GetString("selectedCharacter","Fish1")).gameObject;
+            
+            Debug.Log("previousSelected: "+ previousSelected.name);
             previousSelected.transform.Find("Selected").gameObject.SetActive(false);
+            Debug.Log("7");
             previousSelected.transform.Find("SelectButton").gameObject.SetActive(true);
-
+            Debug.Log("8");
             Debug.Log("WHICH FISH IS BOUGHT " + selectedFish);
             
             coinManager.SetCoin(totalCoin - fishValue);
             
             PlayerPrefs.SetString("selectedCharacter", selectedFish);
-            string purchasedCharacters = PlayerPrefs.GetString("purchasedCharacters");
+            string purchasedCharacters = PlayerPrefs.GetString("purchasedCharacters","Fish1");
             purchasedCharacters += "," + selectedFish;
             PlayerPrefs.SetString("purchasedCharacters", purchasedCharacters);
 

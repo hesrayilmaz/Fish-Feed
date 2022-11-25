@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameManager gameManager;
     [SerializeField] private TileManager tileManager;
     [SerializeField] private AudioSource bubbleAudio;
+    [SerializeField] private AudioSource wrongItemAudio;
     [SerializeField] private float laneDistance = 8;  //distance between two lanes
     [SerializeField] private float forwardSpeed;
 
@@ -55,7 +56,7 @@ public class PlayerController : MonoBehaviour
 
             if (transform.position.z >= tileManager.GetDestroyPoint()-0.1f)
             {
-                forwardSpeed += 2.5f;
+                forwardSpeed += 3f;
                 Debug.Log("INCREASE SPEED");
             }
            
@@ -105,15 +106,18 @@ public class PlayerController : MonoBehaviour
        {
             coin.DecreaseCoin(10);
             Destroy(other.gameObject);
+            wrongItemAudio.Play();
            // DecreaseSize();
         }
        else if (other.gameObject.tag == "Obstacle")
        {
             coin.DecreaseCoin(10);
-       }
+            wrongItemAudio.Play();
+        }
        else if(other.gameObject.tag == "Shark" || other.gameObject.tag == "Hook")
         {
             Debug.Log("GameOver");
+            wrongItemAudio.Play();
             GameOver();
         }
 
