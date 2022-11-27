@@ -148,6 +148,9 @@ public class PlayerController : MonoBehaviour
         isSpeedUp = false;
     }
 
-  
+   public float GetSpeed()
+   {
+        return forwardSpeed;
+   }
 
 }

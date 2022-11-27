@@ -11,11 +11,10 @@ public class TileManager : MonoBehaviour
     private GameObject currentTile;
     [SerializeField] private GameObject firstTile;
     [SerializeField] private Transform playerTransform;
-    private List<GameObject> activeTiles;
+    private PlayerController playerController;
+    public List<GameObject> activeTiles;
     private float tileLength = 120;
     private float destroyPoint;
-    private float generatePoint;
-    private int increaseAmount = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -25,18 +24,15 @@ public class TileManager : MonoBehaviour
         tileIndex = 0;
         tilePos = new Vector3(0, 45, 190);
         destroyPoint = playerTransform.position.z + 250;
-        generatePoint = playerTransform.position.z + 50;
+        playerController = playerTransform.GetComponent<PlayerController>();
     }
 
     // Update is called once per frame
     void Update()
-    {
-
-        if (playerTransform.position.z >= generatePoint)
+    { 
+        if (activeTiles.Count < 3)
         {
             GenerateTile();
-            generatePoint += 100 + increaseAmount;
-            //increaseAmount += 5;  
         }
 
         if (playerTransform.position.z >= destroyPoint)
