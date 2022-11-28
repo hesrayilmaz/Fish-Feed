@@ -22270,10 +22270,14 @@ MonoBehaviour:
   - {fileID: 6348335788270619342, guid: c5f21864cb2067940aaf9dd3f2d1b8a1, type: 3}
   - {fileID: 6348335788270619342, guid: d9bee17154128d949b120b61ba07e28f, type: 3}
   - {fileID: 6348335788270619342, guid: a15fa6aff993dc5469bfd83f448e8fcf, type: 3}
-  timeBetweenSpawn: 4.5
+  - {fileID: 6348335788270619342, guid: 31d30c321ef9b5249a5c05273a4b67f9, type: 3}
+  - {fileID: 6348335788270619342, guid: ab871916a711c0548befaeda1bf76e54, type: 3}
+  - {fileID: 6348335788270619342, guid: b6712968dcb4475458c9b551e1c8d979, type: 3}
+  - {fileID: 6348335788270619342, guid: 5820b564774af5647b95c1e33844fccf, type: 3}
+  - {fileID: 6348335788270619342, guid: 87ef1deb4314f51448656f2e0544bddd, type: 3}
+  - {fileID: 6348335788270619342, guid: a2f18f89a3219124595df1f44e619bb3, type: 3}
   firstTile: {fileID: 1675340118}
   playerTransform: {fileID: 1392142589}
-  activeTiles: []
 --- !u!4 &1672534111
 Transform:
   m_ObjectHideFlags: 0

@@ -13,12 +13,12 @@ public class ShopButtonsController : MonoBehaviour
             transform.GetChild(i).transform.Find("BuyButton").gameObject.SetActive(true);
         }
 
-        Debug.Log("PlayerPrefs.GetString(purchasedCharacters) "+PlayerPrefs.GetString("purchasedCharacters"));
+        //Debug.Log("PlayerPrefs.GetString(purchasedCharacters) "+PlayerPrefs.GetString("purchasedCharacters"));
         
         string[] purchasedCharacters = PlayerPrefs.GetString("purchasedCharacters", "Fish1").Split(",");
         foreach (string fish in purchasedCharacters)
         {
-            Debug.Log("fish name: " + fish);
+            //Debug.Log("fish name: " + fish);
             transform.Find(fish).transform.Find("BuyButton").gameObject.SetActive(false);
             transform.Find(fish).transform.Find("SelectButton").gameObject.SetActive(true);
         }
