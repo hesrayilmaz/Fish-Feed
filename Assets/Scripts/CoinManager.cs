@@ -10,12 +10,12 @@ public class CoinManager : MonoBehaviour
 
     private void Start()
     {
-        coin = PlayerPrefs.GetInt("coin");
+        coin = PlayerPrefs.GetInt("coin",0);
         //coin = 0;
     }
     private void Update()
     {
-        coinText.text = "" + PlayerPrefs.GetInt("coin");
+        coinText.text = "" + PlayerPrefs.GetInt("coin",0);
     }
 
     public void IncreaseCoin(int point)

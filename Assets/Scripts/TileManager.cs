@@ -28,7 +28,7 @@ public class TileManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     { 
-        if (activeTiles.Count < 3)
+        if (activeTiles.Count < 2)
         {
             GenerateTile();
         }

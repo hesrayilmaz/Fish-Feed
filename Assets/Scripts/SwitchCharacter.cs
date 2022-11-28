@@ -13,7 +13,6 @@ public class SwitchCharacter : MonoBehaviour
         Switch();
     }
 
-
     public void Switch()
     {
         //Debug.Log("START THE GAME WITH THE FISH NAME: " + transform.Find(selectedCharacter).gameObject.name);

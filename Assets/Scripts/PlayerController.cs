@@ -18,13 +18,9 @@ public class PlayerController : MonoBehaviour
     private int desiredLane = 1;  //0:left, 1:middle, 2:right
     private bool isSpeedUp = false;
     private bool isStarted = true;
+    private Vector3 targetPos;
     private Animator animator;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -62,7 +58,7 @@ public class PlayerController : MonoBehaviour
            
             transform.Translate(Vector3.forward * Time.deltaTime * forwardSpeed);
             
-            Vector3 targetPos = transform.position.z * transform.forward + transform.position.y * transform.up;
+            targetPos = transform.position.z * transform.forward + transform.position.y * transform.up;
             if (desiredLane == 0)
                 targetPos += Vector3.left * laneDistance;
             else if (desiredLane == 2)
@@ -83,7 +79,6 @@ public class PlayerController : MonoBehaviour
             score.IncreaseScore();
             Destroy(other.gameObject);
             bubbleAudio.Play();
-           // IncreaseSize();
             isSpeedUp = true;
        }
        else if (other.gameObject.tag == "Fish")
@@ -92,7 +87,6 @@ public class PlayerController : MonoBehaviour
             score.IncreaseScore();
             Destroy(other.gameObject);
             bubbleAudio.Play();
-            // IncreaseSize();
         }
         else if (other.gameObject.tag == "BonusFish")
        {
@@ -100,14 +94,12 @@ public class PlayerController : MonoBehaviour
             score.IncreaseScore();
             Destroy(other.gameObject);
             bubbleAudio.Play();
-            // IncreaseSize();
         }
        else if (other.gameObject.tag == "Trash")
        {
             coin.DecreaseCoin(10);
             Destroy(other.gameObject);
             wrongItemAudio.Play();
-           // DecreaseSize();
         }
        else if (other.gameObject.tag == "Obstacle")
        {
@@ -122,16 +114,6 @@ public class PlayerController : MonoBehaviour
 
    }
 
-   /* public void IncreaseSize()
-    {
-        transform.DOScale(transform.localScale + new Vector3(0.005f, 0.005f, 0.005f), 0.1f);
-    }
-
-    public void DecreaseSize()
-    {
-        transform.DOScale(transform.localScale - new Vector3(0.005f, 0.005f, 0.005f), 0.1f);
-    }
-   */
     public void GameOver()
     {
         gameManager.ShowPanel();

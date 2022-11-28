@@ -5,31 +5,14 @@ using UnityEngine;
 public class EnvironmentManager : MonoBehaviour
 {
     [SerializeField] private Transform totalEnv, env1, env2;
-    private GameManager gameManager;
     private bool isFirstEnv = true;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
-    }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Boundary")
-        {
-            Debug.Log("FIX ENV");
             FixEnvironment();
-        }
-            
     }
-
-    private void Update()
-    {
-        /*if(gameManager.isPlaying)
-            totalEnv.Translate(Vector3.forward * Time.deltaTime * 10f);    
-    */
-        }
 
     void FixEnvironment()
     {

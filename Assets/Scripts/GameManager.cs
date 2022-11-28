@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
         if (isStarted)
         {
             player = GameObject.Find("PlayerController").transform.GetComponentsInChildren<Transform>()[1].gameObject;
-            Debug.Log("WHICH PLAYER IS ACTIVE: " + player.name);
+            //Debug.Log("WHICH PLAYER IS ACTIVE: " + player.name);
             isStarted = false;
             StartCoroutine(Play());
         }

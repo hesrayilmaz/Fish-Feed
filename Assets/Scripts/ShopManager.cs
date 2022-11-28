@@ -11,11 +11,6 @@ public class ShopManager : MonoBehaviour
     [SerializeField] private AudioSource clickAudio;
     [SerializeField] private AudioSource wrongClickAudio;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     public void BuyCharacter()
     {
@@ -33,11 +28,11 @@ public class ShopManager : MonoBehaviour
             
             GameObject previousSelected = GameObject.Find("Canvas").transform.Find("Fishes").transform.Find(PlayerPrefs.GetString("selectedCharacter","Fish1")).gameObject;
             
-            Debug.Log("previousSelected: "+ previousSelected.name);
+            //Debug.Log("previousSelected: "+ previousSelected.name);
             previousSelected.transform.Find("Selected").gameObject.SetActive(false);
             previousSelected.transform.Find("SelectButton").gameObject.SetActive(true);
            
-            Debug.Log("WHICH FISH IS BOUGHT " + selectedFish);
+            //Debug.Log("WHICH FISH IS BOUGHT " + selectedFish);
             
             coinManager.SetCoin(totalCoin - fishValue);
             
@@ -61,12 +56,11 @@ public class ShopManager : MonoBehaviour
         clickAudio.Play();
 
         GameObject selectedButton = EventSystem.current.currentSelectedGameObject.gameObject;
-        
         string selectedFish = selectedButton.transform.parent.name;
-        Debug.Log("WHICH FISH IS SELECTED "+ selectedFish);
+        //Debug.Log("WHICH FISH IS SELECTED "+ selectedFish);
 
         GameObject previousSelected = GameObject.Find("Canvas").transform.Find("Fishes").transform.Find(PlayerPrefs.GetString("selectedCharacter","Fish1")).gameObject;
-        Debug.Log("PREVIOUS SELECTED: " + previousSelected.name);
+        //Debug.Log("PREVIOUS SELECTED: " + previousSelected.name);
 
         previousSelected.transform.Find("Selected").gameObject.SetActive(false);
         previousSelected.transform.Find("SelectButton").gameObject.SetActive(true);
