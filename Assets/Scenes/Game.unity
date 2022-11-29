@@ -8,8 +8,8 @@ OcclusionCullingSettings:
     smallestOccluder: 5
     smallestHole: 0.25
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+  m_SceneGUID: 3cc73b8aa90dd55479d762dfce79ef56
+  m_OcclusionCullingData: {fileID: 36300000, guid: 6f8827f6a03a1c24485a89a0d687f7c2, type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -139,6 +139,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral04 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4271699239278156284, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5450783055016396624, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8901691729243921743, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
       propertyPath: m_RootOrder
       value: 90
@@ -195,6 +203,10 @@ PrefabInstance:
     - target: {fileID: 4606701084205436778, guid: 39414d287efb9364894d733ad359ea92, type: 3}
       propertyPath: m_Name
       value: M_Coral13 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4606701084205436778, guid: 39414d287efb9364894d733ad359ea92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6949062199770666347, guid: 39414d287efb9364894d733ad359ea92, type: 3}
       propertyPath: m_RootOrder
@@ -271,6 +283,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 988112692}
     m_Modifications:
+    - target: {fileID: 359062242003955176, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2994823470431108435, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
       propertyPath: m_RootOrder
       value: 62
@@ -331,6 +347,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral01 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3896983630515094751, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
 --- !u!1001 &15333279
@@ -387,6 +407,10 @@ PrefabInstance:
     - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
       propertyPath: m_Name
       value: M_Coral21 1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
@@ -457,6 +481,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral11 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3710591498000974785, guid: 93cb26716ae209d49955369224fc7a2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93cb26716ae209d49955369224fc7a2b, type: 3}
 --- !u!1001 &20214563
@@ -469,6 +497,10 @@ PrefabInstance:
     - target: {fileID: 3192964446287773540, guid: 52813f3245a9015489e7a9d8ed90ee84, type: 3}
       propertyPath: m_Name
       value: M_Coral24 1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3192964446287773540, guid: 52813f3245a9015489e7a9d8ed90ee84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7173124194923288431, guid: 52813f3245a9015489e7a9d8ed90ee84, type: 3}
       propertyPath: m_RootOrder
@@ -578,6 +610,10 @@ PrefabInstance:
     - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
       propertyPath: m_Name
       value: Bubbles (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
@@ -715,6 +751,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral03 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2718261030174006445, guid: 9773c16571761d6488a193f0c049f131, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9773c16571761d6488a193f0c049f131, type: 3}
 --- !u!1001 &48634660
@@ -772,6 +812,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral07 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81977656d0144ab459328546b49632a8, type: 3}
 --- !u!1001 &50055480
@@ -828,6 +872,10 @@ PrefabInstance:
     - target: {fileID: 3197106127379843333, guid: e685ecc312732d140987cba00e091efa, type: 3}
       propertyPath: m_Name
       value: M_Coral06 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3197106127379843333, guid: e685ecc312732d140987cba00e091efa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e685ecc312732d140987cba00e091efa, type: 3}
@@ -896,6 +944,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral00
       objectReference: {fileID: 0}
+    - target: {fileID: 7635400096054837407, guid: 2515da6294c05d8469db425860b628b8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2515da6294c05d8469db425860b628b8, type: 3}
 --- !u!1001 &60182147
@@ -908,6 +960,14 @@ PrefabInstance:
     - target: {fileID: 4271699239278156284, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
       propertyPath: m_Name
       value: M_Coral04 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4271699239278156284, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5450783055016396624, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8901691729243921743, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
       propertyPath: m_RootOrder
@@ -1018,6 +1078,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!1001 &68301890
@@ -1082,6 +1146,10 @@ PrefabInstance:
     - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
       propertyPath: m_Name
       value: Bubbles (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
@@ -1153,6 +1221,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &76953900 stripped
@@ -1223,6 +1295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &77380578 stripped
@@ -1245,6 +1321,14 @@ PrefabInstance:
     - target: {fileID: 4271699239278156284, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
       propertyPath: m_Name
       value: M_Coral04 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4271699239278156284, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5450783055016396624, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8901691729243921743, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
       propertyPath: m_RootOrder
@@ -1351,6 +1435,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral00 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7220679505208766095, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
 --- !u!4 &87029324 stripped
@@ -1421,6 +1509,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &98839897 stripped
@@ -1483,6 +1575,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral03 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2718261030174006445, guid: 9773c16571761d6488a193f0c049f131, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9773c16571761d6488a193f0c049f131, type: 3}
 --- !u!1001 &109766463
@@ -1539,6 +1635,10 @@ PrefabInstance:
     - target: {fileID: 4896842017461373792, guid: 5b0ca343a3228c84b8efb2db026da61e, type: 3}
       propertyPath: m_Name
       value: M_Coral09 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896842017461373792, guid: 5b0ca343a3228c84b8efb2db026da61e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b0ca343a3228c84b8efb2db026da61e, type: 3}
@@ -1601,6 +1701,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &113797335 stripped
@@ -1629,7 +1733,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!154 &118607957
 TerrainCollider:
@@ -1689,7 +1793,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 186922236}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &129666285 stripped
 Transform:
@@ -1764,6 +1868,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!1001 &137290533
@@ -1821,6 +1929,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral02 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8360258244941663977, guid: 8dbfb2308d610194880d961dd745c65f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8dbfb2308d610194880d961dd745c65f, type: 3}
 --- !u!1001 &153106152
@@ -1841,6 +1953,10 @@ PrefabInstance:
     - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: m_Name
       value: Light Shaft (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: ShapeModule.m_Scale.x
@@ -2044,6 +2160,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &166946668 stripped
@@ -2113,6 +2233,10 @@ PrefabInstance:
     - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
       propertyPath: m_Name
       value: Bubbles (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
@@ -2226,6 +2350,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral20
       objectReference: {fileID: 0}
+    - target: {fileID: 6150664291379157171, guid: 76b402ec258c14c46a05150a55adb84d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76b402ec258c14c46a05150a55adb84d, type: 3}
 --- !u!4 &183296623 stripped
@@ -2247,7 +2375,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &186922236
 Transform:
@@ -2261,7 +2389,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1855407416}
   - {fileID: 118607959}
   - {fileID: 1362214860}
   - {fileID: 988112692}
@@ -2323,6 +2450,10 @@ PrefabInstance:
     - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
       propertyPath: m_Name
       value: M_Coral07 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81977656d0144ab459328546b49632a8, type: 3}
@@ -2389,6 +2520,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!1001 &191769479
@@ -2401,6 +2536,10 @@ PrefabInstance:
     - target: {fileID: 686416253160813418, guid: dcb1347021b5f40499bcfe3d5e2e5bf5, type: 3}
       propertyPath: m_Name
       value: M_Coral23 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 686416253160813418, guid: dcb1347021b5f40499bcfe3d5e2e5bf5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8539813436815504359, guid: dcb1347021b5f40499bcfe3d5e2e5bf5, type: 3}
       propertyPath: m_RootOrder
@@ -2525,6 +2664,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral11
       objectReference: {fileID: 0}
+    - target: {fileID: 3236394609664824846, guid: 1255e257786a4bc44a003b831d021db3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1255e257786a4bc44a003b831d021db3, type: 3}
 --- !u!4 &194382797 stripped
@@ -2592,6 +2735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral07 2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
 --- !u!1001 &204122347
@@ -2649,6 +2796,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral06
       objectReference: {fileID: 0}
+    - target: {fileID: 3197106127379843333, guid: e685ecc312732d140987cba00e091efa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e685ecc312732d140987cba00e091efa, type: 3}
 --- !u!1001 &208430202
@@ -2661,6 +2812,10 @@ PrefabInstance:
     - target: {fileID: 1184334073275989948, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
       propertyPath: m_Name
       value: M_Coral05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1184334073275989948, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4915942304302881094, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
       propertyPath: m_RootOrder
@@ -2771,6 +2926,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &208541050 stripped
@@ -2792,7 +2951,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &210070433
 Transform:
@@ -2806,7 +2965,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1599762760}
   - {fileID: 849274164}
   - {fileID: 1945483723}
   - {fileID: 1991053420}
@@ -2880,6 +3038,10 @@ PrefabInstance:
     - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
       propertyPath: m_Name
       value: M_Coral07 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81977656d0144ab459328546b49632a8, type: 3}
@@ -2961,6 +3123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &220288615 stripped
@@ -3022,6 +3188,10 @@ PrefabInstance:
     - target: {fileID: 1868776484335784059, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
       propertyPath: m_Name
       value: M_Coral07 2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
@@ -3131,6 +3301,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral06 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
 --- !u!1001 &239533321
@@ -3199,6 +3373,10 @@ PrefabInstance:
     - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
       propertyPath: m_Name
       value: M_Coral21 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
@@ -3277,6 +3455,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral00
       objectReference: {fileID: 0}
+    - target: {fileID: 7635400096054837407, guid: 2515da6294c05d8469db425860b628b8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2515da6294c05d8469db425860b628b8, type: 3}
 --- !u!1001 &255473292
@@ -3346,6 +3528,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral21 1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
 --- !u!4 &255473293 stripped
@@ -3407,6 +3593,10 @@ PrefabInstance:
     - target: {fileID: 1868776484335784059, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
       propertyPath: m_Name
       value: M_Coral07 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
@@ -3482,6 +3672,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral03 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2718261030174006445, guid: 9773c16571761d6488a193f0c049f131, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9773c16571761d6488a193f0c049f131, type: 3}
 --- !u!4 &263828914 stripped
@@ -3499,6 +3693,10 @@ PrefabInstance:
     - target: {fileID: 1184334073275989948, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
       propertyPath: m_Name
       value: M_Coral05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1184334073275989948, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4915942304302881094, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
       propertyPath: m_RootOrder
@@ -3568,6 +3766,14 @@ PrefabInstance:
     - target: {fileID: 4271699239278156284, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
       propertyPath: m_Name
       value: M_Coral04 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4271699239278156284, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5450783055016396624, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8901691729243921743, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
       propertyPath: m_RootOrder
@@ -3669,6 +3875,10 @@ PrefabInstance:
     - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
       propertyPath: m_Name
       value: M_Coral06 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
@@ -3891,6 +4101,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral13
       objectReference: {fileID: 0}
+    - target: {fileID: 4606701084205436778, guid: 39414d287efb9364894d733ad359ea92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6949062199770666347, guid: 39414d287efb9364894d733ad359ea92, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -3981,6 +4195,10 @@ PrefabInstance:
     - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: m_Name
       value: Light Shaft (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: prewarm
@@ -4107,6 +4325,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral20
       objectReference: {fileID: 0}
+    - target: {fileID: 6150664291379157171, guid: 76b402ec258c14c46a05150a55adb84d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76b402ec258c14c46a05150a55adb84d, type: 3}
 --- !u!4 &283034881 stripped
@@ -4169,6 +4391,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral18
       objectReference: {fileID: 0}
+    - target: {fileID: 3068290632314017528, guid: f96a2833c81eef34e9b41fa51306b547, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f96a2833c81eef34e9b41fa51306b547, type: 3}
 --- !u!1001 &294902799
@@ -4181,6 +4407,10 @@ PrefabInstance:
     - target: {fileID: 686416253160813418, guid: dcb1347021b5f40499bcfe3d5e2e5bf5, type: 3}
       propertyPath: m_Name
       value: M_Coral23 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 686416253160813418, guid: dcb1347021b5f40499bcfe3d5e2e5bf5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8539813436815504359, guid: dcb1347021b5f40499bcfe3d5e2e5bf5, type: 3}
       propertyPath: m_RootOrder
@@ -4283,6 +4513,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral06 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
 --- !u!4 &303065229 stripped
@@ -4345,6 +4579,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral08 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7815647411022769928, guid: a5ef3471c388715469cf5ec26209cd99, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5ef3471c388715469cf5ec26209cd99, type: 3}
 --- !u!1001 &308530914
@@ -4401,6 +4639,10 @@ PrefabInstance:
     - target: {fileID: 7635400096054837407, guid: 2515da6294c05d8469db425860b628b8, type: 3}
       propertyPath: m_Name
       value: M_Coral00 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7635400096054837407, guid: 2515da6294c05d8469db425860b628b8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2515da6294c05d8469db425860b628b8, type: 3}
@@ -4472,6 +4714,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!1001 &318554338
@@ -4529,6 +4775,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral06 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
 --- !u!1001 &320648231
@@ -4585,6 +4835,10 @@ PrefabInstance:
     - target: {fileID: 4896842017461373792, guid: 5b0ca343a3228c84b8efb2db026da61e, type: 3}
       propertyPath: m_Name
       value: M_Coral09
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896842017461373792, guid: 5b0ca343a3228c84b8efb2db026da61e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b0ca343a3228c84b8efb2db026da61e, type: 3}
@@ -4646,6 +4900,10 @@ PrefabInstance:
     - target: {fileID: 3659747804368360587, guid: bb5ac31d4febcd14eb7d611c912b1e2d, type: 3}
       propertyPath: m_Name
       value: M_Coral20 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3659747804368360587, guid: bb5ac31d4febcd14eb7d611c912b1e2d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb5ac31d4febcd14eb7d611c912b1e2d, type: 3}
@@ -4731,6 +4989,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral11 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3710591498000974785, guid: 93cb26716ae209d49955369224fc7a2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93cb26716ae209d49955369224fc7a2b, type: 3}
 --- !u!4 &329598104 stripped
@@ -4802,6 +5064,10 @@ PrefabInstance:
     - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
       propertyPath: m_Name
       value: M_Coral21 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
@@ -4963,6 +5229,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Light Shaft (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: prewarm
       value: 1
@@ -5048,6 +5318,10 @@ PrefabInstance:
     - target: {fileID: 3192964446287773540, guid: 52813f3245a9015489e7a9d8ed90ee84, type: 3}
       propertyPath: m_Name
       value: M_Coral24 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3192964446287773540, guid: 52813f3245a9015489e7a9d8ed90ee84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7173124194923288431, guid: 52813f3245a9015489e7a9d8ed90ee84, type: 3}
       propertyPath: m_RootOrder
@@ -5150,6 +5424,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral07 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81977656d0144ab459328546b49632a8, type: 3}
 --- !u!1001 &375492439
@@ -5214,6 +5492,10 @@ PrefabInstance:
     - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
       propertyPath: m_Name
       value: Bubbles (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
@@ -5323,6 +5605,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral00 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7220679505208766095, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
 --- !u!4 &380965957 stripped
@@ -5386,9 +5672,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7278958258565581427, guid: c246bfd7b7628da408332589ebc70ab3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8881636351614230591, guid: c246bfd7b7628da408332589ebc70ab3, type: 3}
       propertyPath: m_Name
       value: M_Coral01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881636351614230591, guid: c246bfd7b7628da408332589ebc70ab3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c246bfd7b7628da408332589ebc70ab3, type: 3}
@@ -5447,6 +5741,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral21 1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
 --- !u!1001 &401266520
@@ -5503,6 +5801,10 @@ PrefabInstance:
     - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
       propertyPath: m_Name
       value: M_Coral07 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81977656d0144ab459328546b49632a8, type: 3}
@@ -5646,6 +5948,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &424512830 stripped
@@ -5663,6 +5969,14 @@ PrefabInstance:
     - target: {fileID: 4271699239278156284, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
       propertyPath: m_Name
       value: M_Coral04 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4271699239278156284, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5450783055016396624, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8901691729243921743, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
       propertyPath: m_RootOrder
@@ -5765,6 +6079,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral03 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2718261030174006445, guid: 9773c16571761d6488a193f0c049f131, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9773c16571761d6488a193f0c049f131, type: 3}
 --- !u!1 &432440455
@@ -5864,6 +6182,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral23 1
       objectReference: {fileID: 0}
+    - target: {fileID: 686416253160813418, guid: dcb1347021b5f40499bcfe3d5e2e5bf5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8539813436815504359, guid: dcb1347021b5f40499bcfe3d5e2e5bf5, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -5937,6 +6259,10 @@ PrefabInstance:
     - target: {fileID: 4049789425157117408, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
       propertyPath: m_Name
       value: M_Coral05 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049789425157117408, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7810588573745804058, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
       propertyPath: m_RootOrder
@@ -6047,6 +6373,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral04 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6679015865702980984, guid: c9aec58ba69ce8345b8f4c679137a255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6762206486663510476, guid: c9aec58ba69ce8345b8f4c679137a255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9aec58ba69ce8345b8f4c679137a255, type: 3}
 --- !u!1001 &455702006
@@ -6116,6 +6450,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral00 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7220679505208766095, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
 --- !u!1001 &459678447
@@ -6172,6 +6510,10 @@ PrefabInstance:
     - target: {fileID: 4896842017461373792, guid: 5b0ca343a3228c84b8efb2db026da61e, type: 3}
       propertyPath: m_Name
       value: M_Coral09
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896842017461373792, guid: 5b0ca343a3228c84b8efb2db026da61e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b0ca343a3228c84b8efb2db026da61e, type: 3}
@@ -6235,6 +6577,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral04
       objectReference: {fileID: 0}
+    - target: {fileID: 6679015865702980984, guid: c9aec58ba69ce8345b8f4c679137a255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6762206486663510476, guid: c9aec58ba69ce8345b8f4c679137a255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9aec58ba69ce8345b8f4c679137a255, type: 3}
 --- !u!1001 &472329774
@@ -6292,6 +6642,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral11
       objectReference: {fileID: 0}
+    - target: {fileID: 3236394609664824846, guid: 1255e257786a4bc44a003b831d021db3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1255e257786a4bc44a003b831d021db3, type: 3}
 --- !u!1001 &475620980
@@ -6304,6 +6658,10 @@ PrefabInstance:
     - target: {fileID: 4049789425157117408, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
       propertyPath: m_Name
       value: M_Coral05 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049789425157117408, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7810588573745804058, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
       propertyPath: m_RootOrder
@@ -6406,6 +6764,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral00
       objectReference: {fileID: 0}
+    - target: {fileID: 7635400096054837407, guid: 2515da6294c05d8469db425860b628b8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2515da6294c05d8469db425860b628b8, type: 3}
 --- !u!4 &477212021 stripped
@@ -6431,6 +6793,10 @@ PrefabInstance:
     - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: m_Name
       value: Light Shaft (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: ShapeModule.m_Scale.x
@@ -6505,6 +6871,10 @@ PrefabInstance:
     - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: m_Name
       value: Light Shaft (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: ShapeModule.m_Scale.x
@@ -6623,6 +6993,10 @@ PrefabInstance:
     - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
       propertyPath: m_Name
       value: Bubbles (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
@@ -6954,6 +7328,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &515732657 stripped
@@ -7015,6 +7393,10 @@ PrefabInstance:
     - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
       propertyPath: m_Name
       value: M_Coral07 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81977656d0144ab459328546b49632a8, type: 3}
@@ -7139,6 +7521,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral09
       objectReference: {fileID: 0}
+    - target: {fileID: 4896842017461373792, guid: 5b0ca343a3228c84b8efb2db026da61e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b0ca343a3228c84b8efb2db026da61e, type: 3}
 --- !u!4 &549689718 stripped
@@ -7202,6 +7588,10 @@ PrefabInstance:
     - target: {fileID: 3192964446287773540, guid: 52813f3245a9015489e7a9d8ed90ee84, type: 3}
       propertyPath: m_Name
       value: M_Coral24 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3192964446287773540, guid: 52813f3245a9015489e7a9d8ed90ee84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7173124194923288431, guid: 52813f3245a9015489e7a9d8ed90ee84, type: 3}
       propertyPath: m_RootOrder
@@ -7312,6 +7702,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &552837073 stripped
@@ -7378,6 +7772,10 @@ PrefabInstance:
     - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
       propertyPath: m_Name
       value: M_Coral21 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
@@ -7464,6 +7862,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &580399416 stripped
@@ -7534,6 +7936,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!1001 &581989770
@@ -7591,6 +7997,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral00 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7220679505208766095, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
 --- !u!1001 &582541036
@@ -7647,6 +8057,10 @@ PrefabInstance:
     - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
       propertyPath: m_Name
       value: M_Coral06 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
@@ -7713,6 +8127,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!1001 &588694427
@@ -7722,6 +8140,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 988112692}
     m_Modifications:
+    - target: {fileID: 359062242003955176, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2994823470431108435, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
       propertyPath: m_RootOrder
       value: 94
@@ -7769,6 +8191,10 @@ PrefabInstance:
     - target: {fileID: 3896983630515094751, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
       propertyPath: m_Name
       value: M_Coral01 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896983630515094751, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8886221484422732617, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7862,6 +8288,10 @@ PrefabInstance:
     - target: {fileID: 4049789425157117408, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
       propertyPath: m_Name
       value: M_Coral05 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049789425157117408, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7810588573745804058, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
       propertyPath: m_RootOrder
@@ -8018,6 +8448,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral05
       objectReference: {fileID: 0}
+    - target: {fileID: 1184334073275989948, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4915942304302881094, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
       propertyPath: m_RootOrder
       value: 45
@@ -8074,6 +8508,10 @@ PrefabInstance:
     - target: {fileID: 4049789425157117408, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
       propertyPath: m_Name
       value: M_Coral05 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049789425157117408, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7810588573745804058, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
       propertyPath: m_RootOrder
@@ -8142,6 +8580,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral05 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1184334073275989948, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4915942304302881094, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
       propertyPath: m_RootOrder
       value: 83
@@ -8198,6 +8640,10 @@ PrefabInstance:
     - target: {fileID: 4049789425157117408, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
       propertyPath: m_Name
       value: M_Coral05 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049789425157117408, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7810588573745804058, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
       propertyPath: m_RootOrder
@@ -8449,6 +8895,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &663725548 stripped
@@ -8485,13 +8935,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 668376518}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 1628436687}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &668376520
 MonoBehaviour:
@@ -8522,6 +8972,10 @@ PrefabInstance:
     - target: {fileID: 4049789425157117408, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
       propertyPath: m_Name
       value: M_Coral05 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049789425157117408, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7810588573745804058, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
       propertyPath: m_RootOrder
@@ -8636,6 +9090,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral17 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5716148916281213652, guid: 16acd4578b720a049a354d69511fa543, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16acd4578b720a049a354d69511fa543, type: 3}
 --- !u!4 &676132515 stripped
@@ -8699,6 +9157,10 @@ PrefabInstance:
     - target: {fileID: 3192964446287773540, guid: 52813f3245a9015489e7a9d8ed90ee84, type: 3}
       propertyPath: m_Name
       value: M_Coral24 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3192964446287773540, guid: 52813f3245a9015489e7a9d8ed90ee84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7173124194923288431, guid: 52813f3245a9015489e7a9d8ed90ee84, type: 3}
       propertyPath: m_RootOrder
@@ -8801,6 +9263,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral07 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
 --- !u!1001 &696662192
@@ -8813,6 +9279,14 @@ PrefabInstance:
     - target: {fileID: 4271699239278156284, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
       propertyPath: m_Name
       value: M_Coral04 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4271699239278156284, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5450783055016396624, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8901691729243921743, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
       propertyPath: m_RootOrder
@@ -9019,6 +9493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral11 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3710591498000974785, guid: 93cb26716ae209d49955369224fc7a2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93cb26716ae209d49955369224fc7a2b, type: 3}
 --- !u!4 &714128779 stripped
@@ -9092,6 +9570,10 @@ PrefabInstance:
     - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
       propertyPath: m_Name
       value: M_Coral21 1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
@@ -9167,6 +9649,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral21 1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
 --- !u!4 &725135396 stripped
@@ -9194,6 +9680,10 @@ PrefabInstance:
     - target: {fileID: 1184334073275989948, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
       propertyPath: m_Name
       value: M_Coral05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1184334073275989948, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4915942304302881094, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
       propertyPath: m_RootOrder
@@ -9630,6 +10120,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Light Shaft (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: ShapeModule.m_Scale.x
       value: 5.75
@@ -9755,6 +10249,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral02 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8360258244941663977, guid: 8dbfb2308d610194880d961dd745c65f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8dbfb2308d610194880d961dd745c65f, type: 3}
 --- !u!4 &762019332 stripped
@@ -9822,6 +10320,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral00 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7220679505208766095, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
 --- !u!1001 &768727139
@@ -9846,6 +10348,10 @@ PrefabInstance:
     - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: m_Name
       value: Light Shaft (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: prewarm
@@ -10105,6 +10611,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral06 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
 --- !u!1 &782130765
@@ -10206,6 +10716,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral03
       objectReference: {fileID: 0}
+    - target: {fileID: 7257940903240489434, guid: 9fb1d2774a50bc447b48510d7bd870e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7287185859156109702, guid: 9fb1d2774a50bc447b48510d7bd870e5, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -10301,6 +10815,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral14
       objectReference: {fileID: 0}
+    - target: {fileID: 471750794710525370, guid: 315b809065c0d1340a9686168a1b0443, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1160938340234962556, guid: 315b809065c0d1340a9686168a1b0443, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -10357,6 +10875,10 @@ PrefabInstance:
     - target: {fileID: 3951340476138967243, guid: d76e615fe333b47498fb976e942dbd1d, type: 3}
       propertyPath: m_Name
       value: M_Coral13 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3951340476138967243, guid: d76e615fe333b47498fb976e942dbd1d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7587358383631944394, guid: d76e615fe333b47498fb976e942dbd1d, type: 3}
       propertyPath: m_RootOrder
@@ -10476,6 +10998,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral18 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3068290632314017528, guid: f96a2833c81eef34e9b41fa51306b547, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f96a2833c81eef34e9b41fa51306b547, type: 3}
 --- !u!1001 &817376840
@@ -10533,6 +11059,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral06 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
 --- !u!1001 &824562887
@@ -10589,6 +11119,10 @@ PrefabInstance:
     - target: {fileID: 3659747804368360587, guid: bb5ac31d4febcd14eb7d611c912b1e2d, type: 3}
       propertyPath: m_Name
       value: M_Coral20 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3659747804368360587, guid: bb5ac31d4febcd14eb7d611c912b1e2d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb5ac31d4febcd14eb7d611c912b1e2d, type: 3}
@@ -10743,6 +11277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3289062247429698583, guid: 92542349b86c17e4cad4416704d84f06, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9211877372181402999, guid: 92542349b86c17e4cad4416704d84f06, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -10861,6 +11399,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral00 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7220679505208766095, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
 --- !u!4 &845432546 stripped
@@ -10922,6 +11464,10 @@ PrefabInstance:
     - target: {fileID: 3659747804368360587, guid: bb5ac31d4febcd14eb7d611c912b1e2d, type: 3}
       propertyPath: m_Name
       value: M_Coral20 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3659747804368360587, guid: bb5ac31d4febcd14eb7d611c912b1e2d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb5ac31d4febcd14eb7d611c912b1e2d, type: 3}
@@ -10988,9 +11534,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7278958258565581427, guid: c246bfd7b7628da408332589ebc70ab3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8881636351614230591, guid: c246bfd7b7628da408332589ebc70ab3, type: 3}
       propertyPath: m_Name
       value: M_Coral01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881636351614230591, guid: c246bfd7b7628da408332589ebc70ab3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c246bfd7b7628da408332589ebc70ab3, type: 3}
@@ -11010,7 +11564,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &849274164
 Transform:
@@ -11025,7 +11579,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 210070433}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!154 &849274165
 TerrainCollider:
@@ -11127,6 +11681,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral19
       objectReference: {fileID: 0}
+    - target: {fileID: 3284732624138222286, guid: dbe8ccc92d6481a41ab4d54744fb2297, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbe8ccc92d6481a41ab4d54744fb2297, type: 3}
 --- !u!1001 &851116417
@@ -11191,6 +11749,10 @@ PrefabInstance:
     - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
       propertyPath: m_Name
       value: Bubbles (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
@@ -11346,6 +11908,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &869651047 stripped
@@ -11416,6 +11982,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!1001 &880390877
@@ -11480,6 +12050,10 @@ PrefabInstance:
     - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
       propertyPath: m_Name
       value: Bubbles (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
@@ -11553,6 +12127,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral21 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
 --- !u!4 &891541365 stripped
@@ -11616,9 +12194,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7278958258565581427, guid: c246bfd7b7628da408332589ebc70ab3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8881636351614230591, guid: c246bfd7b7628da408332589ebc70ab3, type: 3}
       propertyPath: m_Name
       value: M_Coral01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881636351614230591, guid: c246bfd7b7628da408332589ebc70ab3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c246bfd7b7628da408332589ebc70ab3, type: 3}
@@ -11677,6 +12263,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral06 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
 --- !u!1001 &912750963
@@ -11697,6 +12287,10 @@ PrefabInstance:
     - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: m_Name
       value: Light Shaft (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: ShapeModule.m_Scale.x
@@ -11787,7 +12381,7 @@ Transform:
   - {fileID: 741567951}
   - {fileID: 1960877003}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &915913732
 PrefabInstance:
@@ -11851,6 +12445,10 @@ PrefabInstance:
     - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
       propertyPath: m_Name
       value: Bubbles (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
@@ -12008,6 +12606,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral07 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
 --- !u!4 &944463854 stripped
@@ -12087,6 +12689,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral07 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81977656d0144ab459328546b49632a8, type: 3}
 --- !u!1001 &948605563
@@ -12096,6 +12702,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 988112692}
     m_Modifications:
+    - target: {fileID: 359062242003955176, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2994823470431108435, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
       propertyPath: m_RootOrder
       value: 124
@@ -12143,6 +12753,10 @@ PrefabInstance:
     - target: {fileID: 3896983630515094751, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
       propertyPath: m_Name
       value: M_Coral01 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896983630515094751, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
@@ -12218,6 +12832,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral19 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7930747497338658957, guid: ca7526f2e56488a4882b7f24d1040437, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca7526f2e56488a4882b7f24d1040437, type: 3}
 --- !u!4 &955561367 stripped
@@ -12236,7 +12854,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
-  - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -12276,8 +12894,8 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 65
+  far clip plane: 800
+  field of view: 60
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -12310,7 +12928,7 @@ Transform:
   m_Father: {fileID: 1287758158}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 7.964, y: 0, z: 0}
---- !u!114 &963194229
+--- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12319,57 +12937,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Script: {fileID: 11500000, guid: c0cb8753d51ccfe47b3b8b293ff5bdb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  volumeTrigger: {fileID: 963194228}
-  volumeLayer:
-    serializedVersion: 2
-    m_Bits: 2147483648
-  stopNaNPropagation: 1
-  finalBlitToCameraTarget: 0
-  antialiasingMode: 2
-  temporalAntialiasing:
-    jitterSpread: 0.75
-    sharpness: 0.25
-    stationaryBlending: 0.95
-    motionBlending: 0.85
-  subpixelMorphologicalAntialiasing:
-    quality: 2
-  fastApproximateAntialiasing:
-    fastMode: 0
-    keepAlpha: 0
-  fog:
-    enabled: 1
-    excludeSkybox: 1
-  debugLayer:
-    lightMeter:
-      width: 512
-      height: 256
-      showCurves: 1
-    histogram:
-      width: 512
-      height: 256
-      channel: 3
-    waveform:
-      exposure: 0.12
-      height: 256
-    vectorscope:
-      size: 256
-      exposure: 0.12
-    overlaySettings:
-      linearDepth: 0
-      motionColorIntensity: 4
-      motionGridSize: 64
-      colorBlindnessType: 0
-      colorBlindnessStrength: 1
-  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
-  m_ShowToolkit: 0
-  m_ShowCustomSorter: 0
-  breakBeforeColorGrading: 0
-  m_BeforeTransparentBundles: []
-  m_BeforeStackBundles: []
-  m_AfterStackBundles: []
+  tonemapMaterial: {fileID: 2100000, guid: 3e70001df5bfa1a409ada516c92a5787, type: 2}
+  shader: {fileID: 4800000, guid: 969f25d5633c6124b9abf33614b07c06, type: 3}
+  useAutoExposureMode: 1
+  adaptiveTextureSize: 128
+  middleGrey: 0.5
+  white: 5
+  adaptionSpeed: 3
+  validRenderTextureFormat: 0
+  toneMapping: 0
+  OveralExposure: 0.5
+  Contrast: 1.1
+  Saturation: 0
+  Gamma: 0.9
+  vignetteIntensity: 0.37
+  R: 0
+  G: 0
+  B: 60
 --- !u!1001 &967123394
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12432,6 +13019,10 @@ PrefabInstance:
     - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
       propertyPath: m_Name
       value: Bubbles (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
@@ -12497,6 +13088,10 @@ PrefabInstance:
     - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
       propertyPath: m_Name
       value: Bubbles (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
@@ -12568,6 +13163,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &985811993 stripped
@@ -12589,7 +13188,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &988112692
 Transform:
@@ -12744,7 +13343,7 @@ Transform:
   - {fileID: 1399653334}
   - {fileID: 308530915}
   m_Father: {fileID: 186922236}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &993926159 stripped
 Transform:
@@ -12806,6 +13405,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral06 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
 --- !u!1001 &1006710625
@@ -12862,6 +13465,10 @@ PrefabInstance:
     - target: {fileID: 4896842017461373792, guid: 5b0ca343a3228c84b8efb2db026da61e, type: 3}
       propertyPath: m_Name
       value: M_Coral09 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896842017461373792, guid: 5b0ca343a3228c84b8efb2db026da61e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b0ca343a3228c84b8efb2db026da61e, type: 3}
@@ -12933,6 +13540,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &1016680115 stripped
@@ -12994,6 +13605,10 @@ PrefabInstance:
     - target: {fileID: 7220679505208766095, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
       propertyPath: m_Name
       value: M_Coral00 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220679505208766095, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
@@ -13062,6 +13677,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral20 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3659747804368360587, guid: bb5ac31d4febcd14eb7d611c912b1e2d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb5ac31d4febcd14eb7d611c912b1e2d, type: 3}
 --- !u!4 &1031632306 stripped
@@ -13088,7 +13707,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1039977473
 Transform:
@@ -13145,7 +13764,7 @@ Transform:
   - {fileID: 1589245665}
   - {fileID: 1890571374}
   m_Father: {fileID: 186922236}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1040214421 stripped
 Transform:
@@ -13286,6 +13905,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral20 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3659747804368360587, guid: bb5ac31d4febcd14eb7d611c912b1e2d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb5ac31d4febcd14eb7d611c912b1e2d, type: 3}
 --- !u!1001 &1046183015
@@ -13351,6 +13974,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &1046183016 stripped
@@ -13413,6 +14040,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral06
       objectReference: {fileID: 0}
+    - target: {fileID: 3197106127379843333, guid: e685ecc312732d140987cba00e091efa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e685ecc312732d140987cba00e091efa, type: 3}
 --- !u!1001 &1050505912
@@ -13433,6 +14064,10 @@ PrefabInstance:
     - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: m_Name
       value: Light Shaft (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: ShapeModule.m_Scale.x
@@ -13569,6 +14204,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral21 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
 --- !u!4 &1064371067 stripped
@@ -13651,6 +14290,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral11
       objectReference: {fileID: 0}
+    - target: {fileID: 3236394609664824846, guid: 1255e257786a4bc44a003b831d021db3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1255e257786a4bc44a003b831d021db3, type: 3}
 --- !u!1001 &1083566211
@@ -13707,6 +14350,10 @@ PrefabInstance:
     - target: {fileID: 7635400096054837407, guid: 2515da6294c05d8469db425860b628b8, type: 3}
       propertyPath: m_Name
       value: M_Coral00
+      objectReference: {fileID: 0}
+    - target: {fileID: 7635400096054837407, guid: 2515da6294c05d8469db425860b628b8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2515da6294c05d8469db425860b628b8, type: 3}
@@ -13769,6 +14416,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral00 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7220679505208766095, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
 --- !u!4 &1084786040 stripped
@@ -13791,6 +14442,10 @@ PrefabInstance:
     - target: {fileID: 7680805593857720279, guid: dc7bf91cfab90d04c88350a92f959937, type: 3}
       propertyPath: m_Name
       value: M_Coral12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7680805593857720279, guid: dc7bf91cfab90d04c88350a92f959937, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8762197016342135392, guid: dc7bf91cfab90d04c88350a92f959937, type: 3}
       propertyPath: m_RootOrder
@@ -13893,6 +14548,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral07 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
 --- !u!4 &1095619350 stripped
@@ -13959,6 +14618,10 @@ PrefabInstance:
     - target: {fileID: 6150664291379157171, guid: 76b402ec258c14c46a05150a55adb84d, type: 3}
       propertyPath: m_Name
       value: M_Coral20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6150664291379157171, guid: 76b402ec258c14c46a05150a55adb84d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76b402ec258c14c46a05150a55adb84d, type: 3}
@@ -14029,6 +14692,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral07 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
 --- !u!1001 &1105462765
@@ -14085,6 +14752,10 @@ PrefabInstance:
     - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
       propertyPath: m_Name
       value: M_Coral06 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
@@ -14143,6 +14814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral21 1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
 --- !u!1001 &1108045658
@@ -14199,6 +14874,10 @@ PrefabInstance:
     - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
       propertyPath: m_Name
       value: M_Coral06 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
@@ -14262,6 +14941,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral18 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3068290632314017528, guid: f96a2833c81eef34e9b41fa51306b547, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f96a2833c81eef34e9b41fa51306b547, type: 3}
 --- !u!1001 &1112798231
@@ -14318,6 +15001,10 @@ PrefabInstance:
     - target: {fileID: 3197106127379843333, guid: e685ecc312732d140987cba00e091efa, type: 3}
       propertyPath: m_Name
       value: M_Coral06
+      objectReference: {fileID: 0}
+    - target: {fileID: 3197106127379843333, guid: e685ecc312732d140987cba00e091efa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e685ecc312732d140987cba00e091efa, type: 3}
@@ -14384,6 +15071,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &1115658589 stripped
@@ -14446,6 +15137,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral06 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3197106127379843333, guid: e685ecc312732d140987cba00e091efa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e685ecc312732d140987cba00e091efa, type: 3}
 --- !u!4 &1120174550 stripped
@@ -14507,6 +15202,10 @@ PrefabInstance:
     - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
       propertyPath: m_Name
       value: M_Coral07 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81977656d0144ab459328546b49632a8, type: 3}
@@ -14576,6 +15275,10 @@ PrefabInstance:
     - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
       propertyPath: m_Name
       value: M_Coral07 1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81977656d0144ab459328546b49632a8, type: 3}
@@ -14649,6 +15352,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral21 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
 --- !u!4 &1132957627 stripped
@@ -14720,6 +15427,10 @@ PrefabInstance:
     - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
       propertyPath: m_Name
       value: M_Coral21 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
@@ -14793,6 +15504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral00 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7220679505208766095, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
 --- !u!1001 &1156518517
@@ -14849,6 +15564,10 @@ PrefabInstance:
     - target: {fileID: 1868776484335784059, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
       propertyPath: m_Name
       value: M_Coral07 2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
@@ -14924,6 +15643,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral17 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5716148916281213652, guid: 16acd4578b720a049a354d69511fa543, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16acd4578b720a049a354d69511fa543, type: 3}
 --- !u!4 &1178292563 stripped
@@ -14996,6 +15719,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral00 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7635400096054837407, guid: 2515da6294c05d8469db425860b628b8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2515da6294c05d8469db425860b628b8, type: 3}
 --- !u!1001 &1202265351
@@ -15053,6 +15780,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral00 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7220679505208766095, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
 --- !u!1001 &1205587019
@@ -15065,6 +15796,10 @@ PrefabInstance:
     - target: {fileID: 1184334073275989948, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
       propertyPath: m_Name
       value: M_Coral05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1184334073275989948, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4915942304302881094, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
       propertyPath: m_RootOrder
@@ -15184,6 +15919,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral07 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81977656d0144ab459328546b49632a8, type: 3}
 --- !u!1001 &1209852818
@@ -15196,6 +15935,10 @@ PrefabInstance:
     - target: {fileID: 3289062247429698583, guid: 92542349b86c17e4cad4416704d84f06, type: 3}
       propertyPath: m_Name
       value: M_Coral02
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289062247429698583, guid: 92542349b86c17e4cad4416704d84f06, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9211877372181402999, guid: 92542349b86c17e4cad4416704d84f06, type: 3}
       propertyPath: m_RootOrder
@@ -15275,6 +16018,10 @@ PrefabInstance:
     - target: {fileID: 2233782517861408958, guid: b8e90da80f558ce49915ac0856c3b236, type: 3}
       propertyPath: m_Name
       value: M_Coral21 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2233782517861408958, guid: b8e90da80f558ce49915ac0856c3b236, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6978718417528882993, guid: b8e90da80f558ce49915ac0856c3b236, type: 3}
       propertyPath: m_RootOrder
@@ -15387,6 +16134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral07 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81977656d0144ab459328546b49632a8, type: 3}
 --- !u!1001 &1234869196
@@ -15452,6 +16203,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &1234869197 stripped
@@ -15482,6 +16237,10 @@ PrefabInstance:
     - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: m_Name
       value: Light Shaft (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: ShapeModule.m_Scale.x
@@ -15648,6 +16407,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral05 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4049789425157117408, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7810588573745804058, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
       propertyPath: m_RootOrder
       value: 136
@@ -15771,6 +16534,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral06 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
 --- !u!4 &1272855687 stripped
@@ -15841,6 +16608,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &1273576142 stripped
@@ -15871,6 +16642,10 @@ PrefabInstance:
     - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: m_Name
       value: Light Shaft (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: ShapeModule.m_Scale.x
@@ -15977,6 +16752,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral00 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7220679505208766095, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
 --- !u!1001 &1287375295
@@ -16046,6 +16825,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral07 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81977656d0144ab459328546b49632a8, type: 3}
 --- !u!1 &1287758157
@@ -16104,6 +16887,10 @@ PrefabInstance:
     - target: {fileID: 3192964446287773540, guid: 52813f3245a9015489e7a9d8ed90ee84, type: 3}
       propertyPath: m_Name
       value: M_Coral24 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3192964446287773540, guid: 52813f3245a9015489e7a9d8ed90ee84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7173124194923288431, guid: 52813f3245a9015489e7a9d8ed90ee84, type: 3}
       propertyPath: m_RootOrder
@@ -16206,6 +16993,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral21 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
 --- !u!4 &1294811523 stripped
@@ -16273,6 +17064,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral20 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3659747804368360587, guid: bb5ac31d4febcd14eb7d611c912b1e2d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb5ac31d4febcd14eb7d611c912b1e2d, type: 3}
 --- !u!4 &1308530298 stripped
@@ -16295,6 +17090,10 @@ PrefabInstance:
     - target: {fileID: 686416253160813418, guid: dcb1347021b5f40499bcfe3d5e2e5bf5, type: 3}
       propertyPath: m_Name
       value: M_Coral23 1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 686416253160813418, guid: dcb1347021b5f40499bcfe3d5e2e5bf5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8539813436815504359, guid: dcb1347021b5f40499bcfe3d5e2e5bf5, type: 3}
       propertyPath: m_RootOrder
@@ -16412,6 +17211,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral03
       objectReference: {fileID: 0}
+    - target: {fileID: 7257940903240489434, guid: 9fb1d2774a50bc447b48510d7bd870e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7287185859156109702, guid: 9fb1d2774a50bc447b48510d7bd870e5, type: 3}
       propertyPath: m_RootOrder
       value: 98
@@ -16518,6 +17321,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral19
       objectReference: {fileID: 0}
+    - target: {fileID: 3284732624138222286, guid: dbe8ccc92d6481a41ab4d54744fb2297, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbe8ccc92d6481a41ab4d54744fb2297, type: 3}
 --- !u!1001 &1325265144
@@ -16538,6 +17345,10 @@ PrefabInstance:
     - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: m_Name
       value: Light Shaft (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: ShapeModule.m_Scale.x
@@ -16644,6 +17455,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral00 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7220679505208766095, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a9722e62f35ce84c9f717d2fc2d6238, type: 3}
 --- !u!1001 &1329271104
@@ -16712,6 +17527,10 @@ PrefabInstance:
     - target: {fileID: 7930747497338658957, guid: ca7526f2e56488a4882b7f24d1040437, type: 3}
       propertyPath: m_Name
       value: M_Coral19 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930747497338658957, guid: ca7526f2e56488a4882b7f24d1040437, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca7526f2e56488a4882b7f24d1040437, type: 3}
@@ -16787,6 +17606,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral11 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3710591498000974785, guid: 93cb26716ae209d49955369224fc7a2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93cb26716ae209d49955369224fc7a2b, type: 3}
 --- !u!4 &1334565645 stripped
@@ -16849,6 +17672,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral20 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3659747804368360587, guid: bb5ac31d4febcd14eb7d611c912b1e2d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb5ac31d4febcd14eb7d611c912b1e2d, type: 3}
 --- !u!1001 &1338222405
@@ -16906,6 +17733,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral00
       objectReference: {fileID: 0}
+    - target: {fileID: 7635400096054837407, guid: 2515da6294c05d8469db425860b628b8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2515da6294c05d8469db425860b628b8, type: 3}
 --- !u!1001 &1338321543
@@ -16926,6 +17757,10 @@ PrefabInstance:
     - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: m_Name
       value: Light Shaft (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: ShapeModule.m_Scale.x
@@ -16987,6 +17822,10 @@ PrefabInstance:
     - target: {fileID: 3289062247429698583, guid: 92542349b86c17e4cad4416704d84f06, type: 3}
       propertyPath: m_Name
       value: M_Coral02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289062247429698583, guid: 92542349b86c17e4cad4416704d84f06, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9211877372181402999, guid: 92542349b86c17e4cad4416704d84f06, type: 3}
       propertyPath: m_RootOrder
@@ -17114,6 +17953,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &1351957593 stripped
@@ -17193,6 +18036,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral21 1 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
 --- !u!4 &1353026818 stripped
@@ -17207,6 +18054,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 988112692}
     m_Modifications:
+    - target: {fileID: 359062242003955176, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2994823470431108435, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
       propertyPath: m_RootOrder
       value: 83
@@ -17255,6 +18106,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral01 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3896983630515094751, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
 --- !u!1 &1362214856
@@ -17274,7 +18129,7 @@ GameObject:
   m_TagString: Boundary
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &1362214857
 BoxCollider:
@@ -17352,7 +18207,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 186922236}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1364749271
 GameObject:
@@ -17485,6 +18340,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral18
       objectReference: {fileID: 0}
+    - target: {fileID: 3068290632314017528, guid: f96a2833c81eef34e9b41fa51306b547, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f96a2833c81eef34e9b41fa51306b547, type: 3}
 --- !u!1001 &1374279006
@@ -17497,6 +18356,10 @@ PrefabInstance:
     - target: {fileID: 6753289689190569344, guid: 80be3f1366fe9774ab06220beb7eb4fc, type: 3}
       propertyPath: m_Name
       value: M_Coral18 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753289689190569344, guid: 80be3f1366fe9774ab06220beb7eb4fc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6961619866757903135, guid: 80be3f1366fe9774ab06220beb7eb4fc, type: 3}
       propertyPath: m_RootOrder
@@ -17568,6 +18431,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1991053420}
     m_Modifications:
+    - target: {fileID: 359062242003955176, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2994823470431108435, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -17616,6 +18483,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral01 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3896983630515094751, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8886221484422732617, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
       propertyPath: m_LocalPosition.y
       value: 4.09
@@ -17632,6 +18503,10 @@ PrefabInstance:
     - target: {fileID: 7257940903240489434, guid: 9fb1d2774a50bc447b48510d7bd870e5, type: 3}
       propertyPath: m_Name
       value: M_Coral03
+      objectReference: {fileID: 0}
+    - target: {fileID: 7257940903240489434, guid: 9fb1d2774a50bc447b48510d7bd870e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7287185859156109702, guid: 9fb1d2774a50bc447b48510d7bd870e5, type: 3}
       propertyPath: m_RootOrder
@@ -17694,6 +18569,10 @@ PrefabInstance:
     - target: {fileID: 1184334073275989948, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
       propertyPath: m_Name
       value: M_Coral05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1184334073275989948, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4915942304302881094, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
       propertyPath: m_RootOrder
@@ -17909,6 +18788,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral00 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7635400096054837407, guid: 2515da6294c05d8469db425860b628b8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2515da6294c05d8469db425860b628b8, type: 3}
 --- !u!4 &1399653334 stripped
@@ -17971,6 +18854,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral11
       objectReference: {fileID: 0}
+    - target: {fileID: 3236394609664824846, guid: 1255e257786a4bc44a003b831d021db3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1255e257786a4bc44a003b831d021db3, type: 3}
 --- !u!1001 &1402708969
@@ -18027,6 +18914,10 @@ PrefabInstance:
     - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
       propertyPath: m_Name
       value: M_Coral07 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81977656d0144ab459328546b49632a8, type: 3}
@@ -18085,6 +18976,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral07 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
 --- !u!4 &1408042340 stripped
@@ -18102,6 +18997,10 @@ PrefabInstance:
     - target: {fileID: 2233782517861408958, guid: b8e90da80f558ce49915ac0856c3b236, type: 3}
       propertyPath: m_Name
       value: M_Coral21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2233782517861408958, guid: b8e90da80f558ce49915ac0856c3b236, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6978718417528882993, guid: b8e90da80f558ce49915ac0856c3b236, type: 3}
       propertyPath: m_RootOrder
@@ -18352,6 +19251,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &1416995384 stripped
@@ -18422,6 +19325,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &1420640957 stripped
@@ -18484,6 +19391,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral06 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
 --- !u!1001 &1425196293
@@ -18496,6 +19407,10 @@ PrefabInstance:
     - target: {fileID: 4049789425157117408, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
       propertyPath: m_Name
       value: M_Coral05 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049789425157117408, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7810588573745804058, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
       propertyPath: m_RootOrder
@@ -18597,6 +19512,14 @@ PrefabInstance:
     - target: {fileID: 6679015865702980984, guid: c9aec58ba69ce8345b8f4c679137a255, type: 3}
       propertyPath: m_Name
       value: M_Coral04
+      objectReference: {fileID: 0}
+    - target: {fileID: 6679015865702980984, guid: c9aec58ba69ce8345b8f4c679137a255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6762206486663510476, guid: c9aec58ba69ce8345b8f4c679137a255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9aec58ba69ce8345b8f4c679137a255, type: 3}
@@ -18795,6 +19718,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral20 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3659747804368360587, guid: bb5ac31d4febcd14eb7d611c912b1e2d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb5ac31d4febcd14eb7d611c912b1e2d, type: 3}
 --- !u!4 &1446379677 stripped
@@ -18862,6 +19789,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral07 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
 --- !u!1001 &1450447055
@@ -18874,6 +19805,10 @@ PrefabInstance:
     - target: {fileID: 686416253160813418, guid: dcb1347021b5f40499bcfe3d5e2e5bf5, type: 3}
       propertyPath: m_Name
       value: M_Coral23 1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 686416253160813418, guid: dcb1347021b5f40499bcfe3d5e2e5bf5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8539813436815504359, guid: dcb1347021b5f40499bcfe3d5e2e5bf5, type: 3}
       propertyPath: m_RootOrder
@@ -19010,6 +19945,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral21 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
 --- !u!4 &1454245748 stripped
@@ -19124,9 +20063,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7278958258565581427, guid: c246bfd7b7628da408332589ebc70ab3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8881636351614230591, guid: c246bfd7b7628da408332589ebc70ab3, type: 3}
       propertyPath: m_Name
       value: M_Coral01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8881636351614230591, guid: c246bfd7b7628da408332589ebc70ab3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c246bfd7b7628da408332589ebc70ab3, type: 3}
@@ -19137,6 +20084,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 988112692}
     m_Modifications:
+    - target: {fileID: 359062242003955176, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2994823470431108435, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
       propertyPath: m_RootOrder
       value: 45
@@ -19184,6 +20135,10 @@ PrefabInstance:
     - target: {fileID: 3896983630515094751, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
       propertyPath: m_Name
       value: M_Coral01 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896983630515094751, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8886221484422732617, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19255,6 +20210,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &1494247898 stripped
@@ -19322,6 +20281,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral07 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81977656d0144ab459328546b49632a8, type: 3}
 --- !u!4 &1503950817 stripped
@@ -19344,6 +20307,10 @@ PrefabInstance:
     - target: {fileID: 6753289689190569344, guid: 80be3f1366fe9774ab06220beb7eb4fc, type: 3}
       propertyPath: m_Name
       value: M_Coral18 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753289689190569344, guid: 80be3f1366fe9774ab06220beb7eb4fc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6961619866757903135, guid: 80be3f1366fe9774ab06220beb7eb4fc, type: 3}
       propertyPath: m_RootOrder
@@ -19419,6 +20386,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral05 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1184334073275989948, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4915942304302881094, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
       propertyPath: m_RootOrder
       value: 54
@@ -19491,7 +20462,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1510862109
 Transform:
@@ -19550,7 +20521,7 @@ Transform:
   - {fileID: 912750964}
   - {fileID: 752707414}
   m_Father: {fileID: 210070433}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1512721207 stripped
 Transform:
@@ -19624,6 +20595,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral19 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7930747497338658957, guid: ca7526f2e56488a4882b7f24d1040437, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca7526f2e56488a4882b7f24d1040437, type: 3}
 --- !u!4 &1514387983 stripped
@@ -19685,6 +20660,10 @@ PrefabInstance:
     - target: {fileID: 6150664291379157171, guid: 76b402ec258c14c46a05150a55adb84d, type: 3}
       propertyPath: m_Name
       value: M_Coral20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6150664291379157171, guid: 76b402ec258c14c46a05150a55adb84d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76b402ec258c14c46a05150a55adb84d, type: 3}
@@ -19794,6 +20773,10 @@ PrefabInstance:
     - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: m_Name
       value: Light Shaft (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: prewarm
@@ -20075,6 +21058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral07 1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81977656d0144ab459328546b49632a8, type: 3}
 --- !u!4 &1532484378 stripped
@@ -20137,6 +21124,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral21 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
 --- !u!1001 &1541220714
@@ -20149,6 +21140,10 @@ PrefabInstance:
     - target: {fileID: 2233782517861408958, guid: b8e90da80f558ce49915ac0856c3b236, type: 3}
       propertyPath: m_Name
       value: M_Coral21 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2233782517861408958, guid: b8e90da80f558ce49915ac0856c3b236, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6978718417528882993, guid: b8e90da80f558ce49915ac0856c3b236, type: 3}
       propertyPath: m_RootOrder
@@ -20251,6 +21246,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral03 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2718261030174006445, guid: 9773c16571761d6488a193f0c049f131, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9773c16571761d6488a193f0c049f131, type: 3}
 --- !u!1001 &1544218513
@@ -20320,6 +21319,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral03 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2718261030174006445, guid: 9773c16571761d6488a193f0c049f131, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9773c16571761d6488a193f0c049f131, type: 3}
 --- !u!4 &1544218514 stripped
@@ -20382,6 +21385,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral20 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3659747804368360587, guid: bb5ac31d4febcd14eb7d611c912b1e2d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb5ac31d4febcd14eb7d611c912b1e2d, type: 3}
 --- !u!4 &1545246916 stripped
@@ -20443,6 +21450,10 @@ PrefabInstance:
     - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
       propertyPath: m_Name
       value: M_Coral07 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81977656d0144ab459328546b49632a8, type: 3}
@@ -20510,6 +21521,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &1561858752 stripped
@@ -20527,6 +21542,10 @@ PrefabInstance:
     - target: {fileID: 6753289689190569344, guid: 80be3f1366fe9774ab06220beb7eb4fc, type: 3}
       propertyPath: m_Name
       value: M_Coral18 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753289689190569344, guid: 80be3f1366fe9774ab06220beb7eb4fc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6961619866757903135, guid: 80be3f1366fe9774ab06220beb7eb4fc, type: 3}
       propertyPath: m_RootOrder
@@ -20609,6 +21628,10 @@ PrefabInstance:
     - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: m_Name
       value: Light Shaft
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: ShapeModule.m_Scale.x
@@ -20819,6 +21842,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &1589245665 stripped
@@ -20836,55 +21863,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8901691729243921743, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
   m_PrefabInstance: {fileID: 1839872844}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1599762759
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1599762760}
-  - component: {fileID: 1599762761}
-  m_Layer: 31
-  m_Name: PostProcessing
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1599762760
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1599762759}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.730085, y: -28.602627, z: -40.17829}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 210070433}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1599762761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1599762759}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: 0bc188dde8f2945478eef129840fdbc9, type: 2}
-  isGlobal: 1
-  blendDistance: 0
-  weight: 1
-  priority: 0
 --- !u!1001 &1600731337
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20895,6 +21873,14 @@ PrefabInstance:
     - target: {fileID: 4271699239278156284, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
       propertyPath: m_Name
       value: M_Coral04 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4271699239278156284, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5450783055016396624, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8901691729243921743, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
       propertyPath: m_RootOrder
@@ -21152,6 +22138,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &1612924878 stripped
@@ -21221,6 +22211,10 @@ PrefabInstance:
     - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
       propertyPath: m_Name
       value: Bubbles (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
@@ -21292,6 +22286,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &1616052138 stripped
@@ -21354,6 +22352,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral21 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
 --- !u!1001 &1620649670
@@ -21410,6 +22412,10 @@ PrefabInstance:
     - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
       propertyPath: m_Name
       value: M_Coral06 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
@@ -21468,6 +22474,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral07 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81977656d0144ab459328546b49632a8, type: 3}
 --- !u!1001 &1624577096
@@ -21524,6 +22534,10 @@ PrefabInstance:
     - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
       propertyPath: m_Name
       value: M_Coral06 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
@@ -21582,6 +22596,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral06 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
 --- !u!1001 &1625531116
@@ -21594,6 +22612,10 @@ PrefabInstance:
     - target: {fileID: 1184334073275989948, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
       propertyPath: m_Name
       value: M_Coral05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1184334073275989948, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4915942304302881094, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
       propertyPath: m_RootOrder
@@ -21641,6 +22663,41 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
+--- !u!1 &1628436686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1628436687}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1628436687
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628436686}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1833169074}
+  - {fileID: 1672534111}
+  - {fileID: 668376519}
+  - {fileID: 2039579513}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1631291663
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21695,6 +22752,10 @@ PrefabInstance:
     - target: {fileID: 3236394609664824846, guid: 1255e257786a4bc44a003b831d021db3, type: 3}
       propertyPath: m_Name
       value: M_Coral11 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236394609664824846, guid: 1255e257786a4bc44a003b831d021db3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1255e257786a4bc44a003b831d021db3, type: 3}
@@ -21752,6 +22813,10 @@ PrefabInstance:
     - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
       propertyPath: m_Name
       value: M_Coral06 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
@@ -21815,6 +22880,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral21 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
 --- !u!4 &1642865075 stripped
@@ -21840,6 +22909,10 @@ PrefabInstance:
     - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: m_Name
       value: Light Shaft (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: ShapeModule.m_Scale.x
@@ -21956,6 +23029,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral09 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4896842017461373792, guid: 5b0ca343a3228c84b8efb2db026da61e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b0ca343a3228c84b8efb2db026da61e, type: 3}
 --- !u!4 &1666999207 stripped
@@ -21978,6 +23055,10 @@ PrefabInstance:
     - target: {fileID: 4049789425157117408, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
       propertyPath: m_Name
       value: M_Coral05 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049789425157117408, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7810588573745804058, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
       propertyPath: m_RootOrder
@@ -22079,13 +23160,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1672534109}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 1628436687}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1673645171 stripped
 Transform:
@@ -22184,6 +23265,10 @@ PrefabInstance:
     - target: {fileID: 3951340476138967243, guid: d76e615fe333b47498fb976e942dbd1d, type: 3}
       propertyPath: m_Name
       value: M_Coral13 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3951340476138967243, guid: d76e615fe333b47498fb976e942dbd1d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7587358383631944394, guid: d76e615fe333b47498fb976e942dbd1d, type: 3}
       propertyPath: m_RootOrder
@@ -22315,6 +23400,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral00
       objectReference: {fileID: 0}
+    - target: {fileID: 7635400096054837407, guid: 2515da6294c05d8469db425860b628b8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2515da6294c05d8469db425860b628b8, type: 3}
 --- !u!4 &1677878096 stripped
@@ -22377,6 +23466,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral21 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
 --- !u!1001 &1682899487
@@ -22434,6 +23527,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral00
       objectReference: {fileID: 0}
+    - target: {fileID: 7635400096054837407, guid: 2515da6294c05d8469db425860b628b8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2515da6294c05d8469db425860b628b8, type: 3}
 --- !u!4 &1684262710 stripped
@@ -22459,6 +23556,10 @@ PrefabInstance:
     - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: m_Name
       value: Light Shaft (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: ShapeModule.m_Scale.x
@@ -22587,6 +23688,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral03 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2718261030174006445, guid: 9773c16571761d6488a193f0c049f131, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9773c16571761d6488a193f0c049f131, type: 3}
 --- !u!4 &1688959531 stripped
@@ -22671,6 +23776,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral07 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81977656d0144ab459328546b49632a8, type: 3}
 --- !u!4 &1722054917 stripped
@@ -22751,6 +23860,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!1001 &1728860258
@@ -22820,6 +23933,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral21 1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
 --- !u!4 &1728860259 stripped
@@ -22847,6 +23964,10 @@ PrefabInstance:
     - target: {fileID: 686416253160813418, guid: dcb1347021b5f40499bcfe3d5e2e5bf5, type: 3}
       propertyPath: m_Name
       value: M_Coral23 1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 686416253160813418, guid: dcb1347021b5f40499bcfe3d5e2e5bf5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8539813436815504359, guid: dcb1347021b5f40499bcfe3d5e2e5bf5, type: 3}
       propertyPath: m_RootOrder
@@ -22974,6 +24095,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &1743659981 stripped
@@ -22991,6 +24116,10 @@ PrefabInstance:
     - target: {fileID: 4049789425157117408, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
       propertyPath: m_Name
       value: M_Coral05 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049789425157117408, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7810588573745804058, guid: c1d5c824efed4e04dbf0b5f8ff37994b, type: 3}
       propertyPath: m_RootOrder
@@ -23048,6 +24177,10 @@ PrefabInstance:
     - target: {fileID: 3192964446287773540, guid: 52813f3245a9015489e7a9d8ed90ee84, type: 3}
       propertyPath: m_Name
       value: M_Coral24 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3192964446287773540, guid: 52813f3245a9015489e7a9d8ed90ee84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7173124194923288431, guid: 52813f3245a9015489e7a9d8ed90ee84, type: 3}
       propertyPath: m_RootOrder
@@ -23150,6 +24283,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral03 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2718261030174006445, guid: 9773c16571761d6488a193f0c049f131, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9773c16571761d6488a193f0c049f131, type: 3}
 --- !u!4 &1757269232 stripped
@@ -23212,6 +24349,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral11 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3710591498000974785, guid: 93cb26716ae209d49955369224fc7a2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93cb26716ae209d49955369224fc7a2b, type: 3}
 --- !u!4 &1765507665 stripped
@@ -23237,6 +24378,10 @@ PrefabInstance:
     - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: m_Name
       value: Light Shaft (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: ShapeModule.m_Scale.x
@@ -23361,6 +24506,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &1776644499 stripped
@@ -23438,6 +24587,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral07 2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
 --- !u!1001 &1821557929
@@ -23503,6 +24656,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &1821557930 stripped
@@ -23533,6 +24690,10 @@ PrefabInstance:
     - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: m_Name
       value: Light Shaft (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: ShapeModule.m_Scale.x
@@ -23652,6 +24813,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &1828650058 stripped
@@ -23700,13 +24865,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1833169072}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 1628436687}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1839872844
 PrefabInstance:
@@ -23718,6 +24883,14 @@ PrefabInstance:
     - target: {fileID: 4271699239278156284, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
       propertyPath: m_Name
       value: M_Coral04 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4271699239278156284, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5450783055016396624, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8901691729243921743, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
       propertyPath: m_RootOrder
@@ -23820,6 +24993,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral20
       objectReference: {fileID: 0}
+    - target: {fileID: 6150664291379157171, guid: 76b402ec258c14c46a05150a55adb84d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76b402ec258c14c46a05150a55adb84d, type: 3}
 --- !u!1001 &1843354237
@@ -23832,6 +25009,10 @@ PrefabInstance:
     - target: {fileID: 1184334073275989948, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
       propertyPath: m_Name
       value: M_Coral05 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1184334073275989948, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4915942304302881094, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
       propertyPath: m_RootOrder
@@ -23886,6 +25067,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1991053420}
     m_Modifications:
+    - target: {fileID: 359062242003955176, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2994823470431108435, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
       propertyPath: m_RootOrder
       value: 38
@@ -23933,6 +25118,10 @@ PrefabInstance:
     - target: {fileID: 3896983630515094751, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
       propertyPath: m_Name
       value: M_Coral01 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896983630515094751, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b2d08b374cdeff47b5a202e57dd8b7b, type: 3}
@@ -23999,6 +25188,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &1850084285 stripped
@@ -24021,6 +25214,10 @@ PrefabInstance:
     - target: {fileID: 7257940903240489434, guid: 9fb1d2774a50bc447b48510d7bd870e5, type: 3}
       propertyPath: m_Name
       value: M_Coral03
+      objectReference: {fileID: 0}
+    - target: {fileID: 7257940903240489434, guid: 9fb1d2774a50bc447b48510d7bd870e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7287185859156109702, guid: 9fb1d2774a50bc447b48510d7bd870e5, type: 3}
       propertyPath: m_RootOrder
@@ -24077,55 +25274,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7287185859156109702, guid: 9fb1d2774a50bc447b48510d7bd870e5, type: 3}
   m_PrefabInstance: {fileID: 1852958055}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1855407414
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1855407416}
-  - component: {fileID: 1855407415}
-  m_Layer: 31
-  m_Name: PostProcessing
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1855407415
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1855407414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: 0bc188dde8f2945478eef129840fdbc9, type: 2}
-  isGlobal: 1
-  blendDistance: 0
-  weight: 1
-  priority: 0
---- !u!4 &1855407416
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1855407414}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.730085, y: -28.602627, z: -40.17829}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 186922236}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1859067902
 GameObject:
   m_ObjectHideFlags: 0
@@ -24319,6 +25467,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral04
       objectReference: {fileID: 0}
+    - target: {fileID: 6679015865702980984, guid: c9aec58ba69ce8345b8f4c679137a255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6762206486663510476, guid: c9aec58ba69ce8345b8f4c679137a255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9aec58ba69ce8345b8f4c679137a255, type: 3}
 --- !u!1001 &1875615520
@@ -24383,6 +25539,10 @@ PrefabInstance:
     - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
       propertyPath: m_Name
       value: Bubbles (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
@@ -24452,6 +25612,10 @@ PrefabInstance:
     - target: {fileID: 3236394609664824846, guid: 1255e257786a4bc44a003b831d021db3, type: 3}
       propertyPath: m_Name
       value: M_Coral11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236394609664824846, guid: 1255e257786a4bc44a003b831d021db3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1255e257786a4bc44a003b831d021db3, type: 3}
@@ -24526,6 +25690,10 @@ PrefabInstance:
     - target: {fileID: 8360258244941663977, guid: 8dbfb2308d610194880d961dd745c65f, type: 3}
       propertyPath: m_Name
       value: M_Coral02 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360258244941663977, guid: 8dbfb2308d610194880d961dd745c65f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8dbfb2308d610194880d961dd745c65f, type: 3}
@@ -24665,6 +25833,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral20
       objectReference: {fileID: 0}
+    - target: {fileID: 6150664291379157171, guid: 76b402ec258c14c46a05150a55adb84d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76b402ec258c14c46a05150a55adb84d, type: 3}
 --- !u!1001 &1890571373
@@ -24725,6 +25897,10 @@ PrefabInstance:
     - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
       propertyPath: m_Name
       value: Bubbles (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
@@ -24788,6 +25964,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral03 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2718261030174006445, guid: 9773c16571761d6488a193f0c049f131, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9773c16571761d6488a193f0c049f131, type: 3}
 --- !u!4 &1905269723 stripped
@@ -24813,6 +25993,10 @@ PrefabInstance:
     - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: m_Name
       value: Light Shaft (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: ShapeModule.m_Scale.x
@@ -24884,6 +26068,10 @@ PrefabInstance:
     - target: {fileID: 3289062247429698583, guid: 92542349b86c17e4cad4416704d84f06, type: 3}
       propertyPath: m_Name
       value: M_Coral02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289062247429698583, guid: 92542349b86c17e4cad4416704d84f06, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9211877372181402999, guid: 92542349b86c17e4cad4416704d84f06, type: 3}
       propertyPath: m_RootOrder
@@ -24998,6 +26186,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral03 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2718261030174006445, guid: 9773c16571761d6488a193f0c049f131, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9773c16571761d6488a193f0c049f131, type: 3}
 --- !u!1001 &1942378953
@@ -25055,6 +26247,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral00
       objectReference: {fileID: 0}
+    - target: {fileID: 7635400096054837407, guid: 2515da6294c05d8469db425860b628b8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2515da6294c05d8469db425860b628b8, type: 3}
 --- !u!4 &1943465359 stripped
@@ -25079,7 +26275,7 @@ GameObject:
   m_TagString: Boundary
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1945483723
 Transform:
@@ -25094,7 +26290,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 210070433}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!65 &1945483724
 BoxCollider:
@@ -25226,6 +26422,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral07 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81977656d0144ab459328546b49632a8, type: 3}
 --- !u!4 &1946358821 stripped
@@ -25243,6 +26443,10 @@ PrefabInstance:
     - target: {fileID: 1184334073275989948, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
       propertyPath: m_Name
       value: M_Coral05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1184334073275989948, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4915942304302881094, guid: a22dd84e45c328248bac5192ee209dfa, type: 3}
       propertyPath: m_RootOrder
@@ -25345,6 +26549,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral07 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ccc1f82627bde942881c77803fbf255, type: 3}
 --- !u!4 &1957930534 stripped
@@ -25406,6 +26614,10 @@ PrefabInstance:
     - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
       propertyPath: m_Name
       value: M_Coral06 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
@@ -25607,6 +26819,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral06 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
 --- !u!4 &1973265867 stripped
@@ -25681,6 +26897,10 @@ PrefabInstance:
     - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
       propertyPath: m_Name
       value: Bubbles (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
@@ -25823,6 +27043,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral06 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7447204871096205714, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d56d785ddca4eae43adca20ac2dfb5ac, type: 3}
 --- !u!1001 &1988980619
@@ -25880,6 +27104,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral21 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
 --- !u!1 &1991053419
@@ -25896,7 +27124,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1991053420
 Transform:
@@ -26019,7 +27247,7 @@ Transform:
   - {fileID: 1521575437}
   - {fileID: 1016975093}
   m_Father: {fileID: 210070433}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1996608066 stripped
 Transform:
@@ -26089,6 +27317,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &1997498606 stripped
@@ -26118,6 +27350,10 @@ PrefabInstance:
     - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: m_Name
       value: Light Shaft (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: prewarm
@@ -26264,6 +27500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral21 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
 --- !u!1001 &2014492310
@@ -26333,6 +27573,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral21 1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6703195788012159740, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8145ae609d45f6d4a8da1f7aa8f560ea, type: 3}
 --- !u!4 &2014492311 stripped
@@ -26350,6 +27594,10 @@ PrefabInstance:
     - target: {fileID: 686416253160813418, guid: dcb1347021b5f40499bcfe3d5e2e5bf5, type: 3}
       propertyPath: m_Name
       value: M_Coral23 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 686416253160813418, guid: dcb1347021b5f40499bcfe3d5e2e5bf5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8539813436815504359, guid: dcb1347021b5f40499bcfe3d5e2e5bf5, type: 3}
       propertyPath: m_RootOrder
@@ -26469,6 +27717,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral02 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8360258244941663977, guid: 8dbfb2308d610194880d961dd745c65f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8dbfb2308d610194880d961dd745c65f, type: 3}
 --- !u!1 &2036463890
@@ -26565,13 +27817,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2039579511}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -10.464491, y: 16.560795, z: 60.13758}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 1628436687}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2043863778
 PrefabInstance:
@@ -26628,6 +27880,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral07 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81977656d0144ab459328546b49632a8, type: 3}
 --- !u!1001 &2045700942
@@ -26640,6 +27896,10 @@ PrefabInstance:
     - target: {fileID: 7257940903240489434, guid: 9fb1d2774a50bc447b48510d7bd870e5, type: 3}
       propertyPath: m_Name
       value: M_Coral03
+      objectReference: {fileID: 0}
+    - target: {fileID: 7257940903240489434, guid: 9fb1d2774a50bc447b48510d7bd870e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7287185859156109702, guid: 9fb1d2774a50bc447b48510d7bd870e5, type: 3}
       propertyPath: m_RootOrder
@@ -26755,6 +28015,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!1001 &2063688225
@@ -26824,6 +28088,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral04
       objectReference: {fileID: 0}
+    - target: {fileID: 6679015865702980984, guid: c9aec58ba69ce8345b8f4c679137a255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6762206486663510476, guid: c9aec58ba69ce8345b8f4c679137a255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9aec58ba69ce8345b8f4c679137a255, type: 3}
 --- !u!1001 &2069244892
@@ -26844,6 +28116,10 @@ PrefabInstance:
     - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: m_Name
       value: Light Shaft (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: ShapeModule.m_Scale.x
@@ -26972,6 +28248,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral11 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3236394609664824846, guid: 1255e257786a4bc44a003b831d021db3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1255e257786a4bc44a003b831d021db3, type: 3}
 --- !u!4 &2081176419 stripped
@@ -27003,6 +28283,14 @@ PrefabInstance:
     - target: {fileID: 4271699239278156284, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
       propertyPath: m_Name
       value: M_Coral04 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4271699239278156284, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5450783055016396624, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8901691729243921743, guid: 28c33f572c93aca41966d55df3bf1199, type: 3}
       propertyPath: m_RootOrder
@@ -27113,6 +28401,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &2091005710 stripped
@@ -27192,6 +28484,10 @@ PrefabInstance:
     - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
       propertyPath: m_Name
       value: Bubbles (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
@@ -27393,6 +28689,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral20 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3659747804368360587, guid: bb5ac31d4febcd14eb7d611c912b1e2d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb5ac31d4febcd14eb7d611c912b1e2d, type: 3}
 --- !u!4 &2106350431 stripped
@@ -27454,6 +28754,10 @@ PrefabInstance:
     - target: {fileID: 3710591498000974785, guid: 93cb26716ae209d49955369224fc7a2b, type: 3}
       propertyPath: m_Name
       value: M_Coral11 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3710591498000974785, guid: 93cb26716ae209d49955369224fc7a2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93cb26716ae209d49955369224fc7a2b, type: 3}
@@ -27533,6 +28837,10 @@ PrefabInstance:
     - target: {fileID: 5716148916281213652, guid: 16acd4578b720a049a354d69511fa543, type: 3}
       propertyPath: m_Name
       value: M_Coral17 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5716148916281213652, guid: 16acd4578b720a049a354d69511fa543, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16acd4578b720a049a354d69511fa543, type: 3}
@@ -27642,6 +28950,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: M_Coral07 1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1868776484335784059, guid: 81977656d0144ab459328546b49632a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81977656d0144ab459328546b49632a8, type: 3}
 --- !u!1001 &2122438367
@@ -27706,6 +29018,10 @@ PrefabInstance:
     - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
       propertyPath: m_Name
       value: Bubbles (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
@@ -27774,6 +29090,50 @@ MonoBehaviour:
   scoreText: {fileID: 2144429488}
   gameOverScoreText: {fileID: 1434578422}
   gameOverHighScoreText: {fileID: 1605356247}
+--- !u!1 &2132785086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2132785088}
+  - component: {fileID: 2132785087}
+  m_Layer: 0
+  m_Name: Fps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2132785087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132785086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ca1fa7f9cb1af946a8c292c1c0ec6fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2132785088
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132785086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2136603713
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27837,6 +29197,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &2136603714 stripped
@@ -27862,6 +29226,10 @@ PrefabInstance:
     - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: m_Name
       value: Light Shaft (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: ShapeModule.m_Scale.x
@@ -27967,6 +29335,10 @@ PrefabInstance:
     - target: {fileID: 3710591498000974785, guid: 93cb26716ae209d49955369224fc7a2b, type: 3}
       propertyPath: m_Name
       value: M_Coral11 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3710591498000974785, guid: 93cb26716ae209d49955369224fc7a2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93cb26716ae209d49955369224fc7a2b, type: 3}
@@ -28124,6 +29496,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Light Shaft
       objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: ShapeModule.m_Scale.x
       value: 5.75
@@ -28238,6 +29614,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles
       objectReference: {fileID: 0}
+    - target: {fileID: 8004704951806435297, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca148fe90385ff418cb3440cccea3e7, type: 3}
 --- !u!4 &7587923542172409758 stripped
@@ -28263,6 +29643,10 @@ PrefabInstance:
     - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: m_Name
       value: Light Shaft (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700133735916405055, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8895211053058035834, guid: 8895c55c9ebb3134081bd219a7216a11, type: 3}
       propertyPath: ShapeModule.m_Scale.x
