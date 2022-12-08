@@ -15,14 +15,14 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.03551086, g: 0.3058813, b: 0.3584906, a: 1}
+  m_FogColor: {r: 0.12941177, g: 0.42745098, b: 0.47058824, a: 1}
   m_FogMode: 1
-  m_FogDensity: 0.02
-  m_LinearFogStart: 120
-  m_LinearFogEnd: 150
-  m_AmbientSkyColor: {r: 0.21226418, g: 0.73151934, b: 1, a: 1}
-  m_AmbientEquatorColor: {r: 0.4773941, g: 0.59772843, b: 0.6792453, a: 1}
-  m_AmbientGroundColor: {r: 0.06950873, g: 0.15824772, b: 0.20754719, a: 1}
+  m_FogDensity: 0.009
+  m_LinearFogStart: 10
+  m_LinearFogEnd: 270
+  m_AmbientSkyColor: {r: 0.42352942, g: 1.4666667, b: 2, a: 1}
+  m_AmbientEquatorColor: {r: 1, g: 1, b: 1, a: 1}
+  m_AmbientGroundColor: {r: 0.07058824, g: 0.15686275, b: 0.20784314, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
@@ -8955,7 +8955,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f311c5a9f4b95834a880eaa2a4a60a05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isRewardedAdShown: 0
   clickAudio: {fileID: 1960877004}
 --- !u!4 &671488971 stripped
 Transform:
@@ -9368,7 +9367,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 0.6650944, g: 1, b: 1, a: 1}
-  m_Intensity: 0.7
+  m_Intensity: 0.8
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -12854,7 +12853,6 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
-  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -12928,35 +12926,6 @@ Transform:
   m_Father: {fileID: 1287758158}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 7.964, y: 0, z: 0}
---- !u!114 &963194230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0cb8753d51ccfe47b3b8b293ff5bdb4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tonemapMaterial: {fileID: 2100000, guid: 3e70001df5bfa1a409ada516c92a5787, type: 2}
-  shader: {fileID: 4800000, guid: 969f25d5633c6124b9abf33614b07c06, type: 3}
-  useAutoExposureMode: 1
-  adaptiveTextureSize: 128
-  middleGrey: 0.5
-  white: 5
-  adaptionSpeed: 3
-  validRenderTextureFormat: 0
-  toneMapping: 0
-  OveralExposure: 0.5
-  Contrast: 1.1
-  Saturation: 0
-  Gamma: 0.9
-  vignetteIntensity: 0.37
-  R: 0
-  G: 0
-  B: 60
 --- !u!1001 &967123394
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18701,7 +18670,7 @@ MonoBehaviour:
   wrongItemAudio: {fileID: 1859067904}
   gameOverAudio: {fileID: 741567952}
   laneDistance: 8
-  forwardSpeed: 15
+  forwardSpeed: 17
 --- !u!114 &1392142593
 MonoBehaviour:
   m_ObjectHideFlags: 0

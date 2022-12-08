@@ -103,8 +103,10 @@ public class PlayerController : MonoBehaviour
         }
        else if (other.gameObject.tag == "Obstacle")
        {
-            coin.DecreaseCoin(10);
-            wrongItemAudio.Play();
+            //coin.DecreaseCoin(10);
+            Debug.Log("GameOver");
+            GameOver();
+            //wrongItemAudio.Play();
         }
        else if(other.gameObject.tag == "Shark" || other.gameObject.tag == "Hook")
         {

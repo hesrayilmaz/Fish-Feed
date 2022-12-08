@@ -8696,7 +8696,7 @@ GameObject:
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1287758158
 Transform:
   m_ObjectHideFlags: 0
@@ -8814,7 +8814,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1296436118}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!20 &1296436120
 Camera:
   m_ObjectHideFlags: 0
