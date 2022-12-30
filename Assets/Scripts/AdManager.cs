@@ -74,6 +74,8 @@ public class AdManager : MonoBehaviour
         clickAudio.Play();
         if (interstitialAd != null && interstitialAd.IsLoaded())
             interstitialAd.Show();
+        else
+            GameObject.Find("GameManager").GetComponent<GameManager>().RestartGame();
     }
 
     private void RequestInterstitialAd()

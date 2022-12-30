@@ -7,6 +7,7 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject gameOverPanel;
+    [SerializeField] private GameObject loadingPanel;
     [SerializeField] private GameObject countdown;
     [SerializeField] private AudioSource backgroundAudio;
     [SerializeField] private AudioSource clickAudio;
@@ -14,6 +15,11 @@ public class GameManager : MonoBehaviour
     private GameObject player;
     public bool isPlaying;
     private bool isStarted;
+
+    private void Awake()
+    {
+        RenderSettings.fog = true;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -72,6 +78,7 @@ public class GameManager : MonoBehaviour
             counter--;
         }
         countdown.SetActive(false);
+        loadingPanel.SetActive(false);
         player.GetComponent<BoxCollider>().enabled = false;
         isPlaying = true;
         yield return new WaitForSeconds(2f);

@@ -17,9 +17,13 @@ public class EnvironmentManager : MonoBehaviour
     void FixEnvironment()
     {
         if (isFirstEnv)
-            env1.position = env2.position+new Vector3(0, 0, 625);
+            env1.position = env1.position + new Vector3(0, 0, 200);
+        //env1.position = env2.position+new Vector3(0, 0, 625);
+
         else
-            env2.position = env1.position+new Vector3(0, 0, 625);
+            env2.position = env2.position + new Vector3(0, 0, 200);
+        //env2.position = env1.position+new Vector3(0, 0, 625);
+
         isFirstEnv = !isFirstEnv;
     }
 }
