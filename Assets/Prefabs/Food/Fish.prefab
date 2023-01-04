@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4262872273592367401}
   - component: {fileID: 2075091762367778275}
   - component: {fileID: -6734877081542060622}
+  - component: {fileID: 3518244150509492285}
   m_Layer: 0
   m_Name: Fish
   m_TagString: Fish
@@ -99,3 +100,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.035, y: 0.03, z: 0.03}
   m_Center: {x: 0.0026612766, y: 0.0005373929, z: 0.00081197306}
+--- !u!95 &3518244150509492285
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562044533964729398}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6af29dddcbfb7224d9bd37efe92f2031, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
