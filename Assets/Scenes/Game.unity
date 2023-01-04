@@ -11914,6 +11914,9 @@ MonoBehaviour:
   gameOverAudio: {fileID: 741567952}
   wrongItemParticle: {fileID: 185086, guid: 6c4ae31fa47a6c143a4e64ca4b65fc4a, type: 3}
   correctItemParticle: {fileID: 191460, guid: b3f1ecf8bdf01124289a7e517f46cb1a, type: 3}
+  plus10Text: {fileID: 381814867584948098, guid: 74520becbc87fdc4aa953828fb3145e7, type: 3}
+  plus15Text: {fileID: 65897152001168083, guid: 7fe14ece29a62f84ca8c9d68219bed46, type: 3}
+  minus10Text: {fileID: 5353945622465710995, guid: 0170f240d82d0744a98e288db79bf577, type: 3}
   laneDistance: 8
   forwardSpeed: 17
 --- !u!114 &1392142593
@@ -13337,15 +13340,15 @@ Transform:
   - {fileID: 915913733}
   - {fileID: 375492440}
   - {fileID: 985811993}
-  - {fileID: 2107467147}
   - {fileID: 38570029}
-  - {fileID: 1513360139}
-  - {fileID: 1258969988}
-  - {fileID: 2070411052}
+  - {fileID: 2107467147}
   - {fileID: 1080883419}
+  - {fileID: 2070411052}
+  - {fileID: 1258969988}
+  - {fileID: 1513360139}
+  - {fileID: 1040214421}
   - {fileID: 1629202858}
   - {fileID: 1273129033}
-  - {fileID: 1040214421}
   - {fileID: 1182589389}
   - {fileID: 243440790}
   - {fileID: 1938504471}

@@ -9,7 +9,7 @@ public class Resolution : MonoBehaviour
     void Start()
     {
         if (isStarted)
-            Screen.SetResolution((int)(Screen.currentResolution.width / 1.5f), (int)(Screen.currentResolution.height / 1.5f), true);
+            Screen.SetResolution((int)(Screen.currentResolution.width / 1.25f), (int)(Screen.currentResolution.height / 1.25f), true);
         isStarted = false;
     }
 
