@@ -1,0 +1,29 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class EnvironmentManager : MonoBehaviour
+{
+    [SerializeField] private Transform totalEnv, env1, env2;
+    private bool isFirstEnv = true;
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Boundary")
+            FixEnvironment();
+    }
+
+    void FixEnvironment()
+    {
+        if (isFirstEnv)
+            env1.position = env1.position + new Vector3(0, 0, 400);
+        //env1.position = env2.position+new Vector3(0, 0, 625);
+
+        else
+            env2.position = env2.position + new Vector3(0, 0, 400);
+        //env2.position = env1.position+new Vector3(0, 0, 625);
+
+        isFirstEnv = !isFirstEnv;
+    }
+}
