@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private AudioSource wrongItemAudio;
     [SerializeField] private AudioSource gameOverAudio;
     [SerializeField] private GameObject wrongItemParticle, correctItemParticle;
-    [SerializeField] private GameObject plus10Text, plus15Text, minus10Text;
+    [SerializeField] private GameObject scorePopup;
 
     [SerializeField] private float laneDistance = 8;  //distance between two lanes
     [SerializeField] private float forwardSpeed;
@@ -76,47 +76,20 @@ public class PlayerController : MonoBehaviour
     {
        if (other.gameObject.tag == "Steak")
        {
-            TriggerCorrectItem(other.gameObject, plus15Text, 15);
-            /*coin.IncreaseCoin(15);
-            score.IncreaseScore();
-            Destroy(other.gameObject);
-            bubbleAudio.Play();
-            Instantiate(correctItemParticle, other.gameObject.transform.position, Quaternion.identity);
-            Instantiate(plus15Text, other.gameObject.transform.position + new Vector3(11,2,0), Quaternion.identity);
-            */
+            TriggerCorrectItem(other.gameObject, 15);
             isSpeedUp = true;
        }
        else if (other.gameObject.tag == "Fish")
        {
-            TriggerCorrectItem(other.gameObject, plus10Text, 10);
-           /* coin.IncreaseCoin(10);
-            score.IncreaseScore();
-            Destroy(other.gameObject);
-            bubbleAudio.Play();
-            Instantiate(correctItemParticle, other.gameObject.transform.position, Quaternion.identity);
-            Instantiate(plus10Text, other.gameObject.transform.position + new Vector3(11, 2, 0), Quaternion.identity);
-        */
-            }
+            TriggerCorrectItem(other.gameObject, 10);
+       }
        else if (other.gameObject.tag == "BonusFish")
        {
-            TriggerCorrectItem(other.gameObject, plus15Text, 15);
-            /*coin.IncreaseCoin(15);
-            score.IncreaseScore();
-            Destroy(other.gameObject);
-            bubbleAudio.Play();
-            Instantiate(correctItemParticle, other.gameObject.transform.position, Quaternion.identity);
-            Instantiate(plus15Text, other.gameObject.transform.position + new Vector3(11, 2, 0), Quaternion.identity);
-        */
-            }
+            TriggerCorrectItem(other.gameObject, 15);
+       }
        else if (other.gameObject.tag == "Trash")
        {
-            TriggerWrongItem(other.gameObject, minus10Text, 10);
-            /*coin.DecreaseCoin(10);
-            Destroy(other.gameObject);
-            wrongItemAudio.Play();
-            Instantiate(wrongItemParticle, other.gameObject.transform.position, Quaternion.identity);
-            Instantiate(minus10Text, other.gameObject.transform.position + new Vector3(11, 2, 0), Quaternion.identity);
-        */
+            TriggerWrongItem(other.gameObject, 10);
        }
        else if (other.gameObject.tag == "Obstacle" || other.gameObject.tag == "Shark" || other.gameObject.tag == "Hook")
        {
@@ -132,22 +105,24 @@ public class PlayerController : MonoBehaviour
         gameOverAudio.Play();
     }
 
-    private void TriggerCorrectItem(GameObject triggerObject, GameObject text, int pointAmount)
+    private void TriggerCorrectItem(GameObject triggerObject, int scoreAmount)
     {
-        coin.IncreaseCoin(pointAmount);
+        coin.IncreaseCoin(scoreAmount);
         score.IncreaseScore();
         Destroy(triggerObject);
         bubbleAudio.Play();
-        StartCoroutine(CreateText(text, triggerObject));
+        GameObject popup = Instantiate(scorePopup, triggerObject.transform.position + new Vector3(1, 0, 1), Quaternion.identity);
+        popup.GetComponent<ScorePopup>().Setup("+"+scoreAmount, true);
         StartCoroutine(CreateParticle(correctItemParticle, triggerObject));
     }
 
-    private void TriggerWrongItem(GameObject triggerObject, GameObject text, int pointAmount)
+    private void TriggerWrongItem(GameObject triggerObject, int scoreAmount)
     {
-        coin.DecreaseCoin(pointAmount);
+        coin.DecreaseCoin(scoreAmount);
         Destroy(triggerObject);
         wrongItemAudio.Play();
-        StartCoroutine(CreateText(text, triggerObject));
+        GameObject popup = Instantiate(scorePopup, triggerObject.transform.position + new Vector3(1, 0, 1), Quaternion.identity);
+        popup.GetComponent<ScorePopup>().Setup("-" + scoreAmount, false);
         StartCoroutine(CreateParticle(wrongItemParticle, triggerObject));
     }
 
@@ -160,12 +135,6 @@ public class PlayerController : MonoBehaviour
         isSpeedUp = false;
     }
     
-    IEnumerator CreateText(GameObject text, GameObject triggerObject)
-    {
-        GameObject go= Instantiate(text, triggerObject.transform.position + new Vector3(10, 1, 2), Quaternion.identity);
-        yield return new WaitForSeconds(0.3f);
-        Destroy(go);
-    }
     IEnumerator CreateParticle(GameObject particle, GameObject triggerObject)
     {
         GameObject go = Instantiate(particle, triggerObject.transform.position, Quaternion.identity);

@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Boundary
+  - Fish
+  - Trash
+  - Obstacle
+  - Steak
+  - Hook
+  - BonusFish
   layers:
   - Default
   - TransparentFX
@@ -40,4 +47,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Top
+    uniqueID: 2690265003
     locked: 0
