@@ -20,8 +20,9 @@ public class PlayerController : MonoBehaviour
     private int desiredLane = 1;  //0:left, 1:middle, 2:right
     private bool isSpeedUp = false;
     private bool isStarted = true;
-    private Vector3 targetPos;
+    private Vector3 targetPos, particlePos;
     private Animator animator;
+    private GameObject popup, triggerParticle;
 
 
     // Update is called once per frame
@@ -52,10 +53,14 @@ public class PlayerController : MonoBehaviour
                 StartCoroutine(Speed());
             }
 
-            if (transform.position.z >= tileManager.GetDestroyPoint()-0.1f)
+            if (transform.position.z >= tileManager.GetDestroyPoint())
             {
-                forwardSpeed += 3f;
+                if (forwardSpeed < 180)
+                {
+                    forwardSpeed += 3f;
+                }
                 Debug.Log("INCREASE SPEED");
+                Debug.Log(forwardSpeed);
             }
            
             transform.Translate(Vector3.forward * Time.deltaTime * forwardSpeed);
@@ -93,7 +98,7 @@ public class PlayerController : MonoBehaviour
        }
        else if (other.gameObject.tag == "Obstacle" || other.gameObject.tag == "Shark" || other.gameObject.tag == "Hook")
        {
-            Debug.Log("GameOver");
+            Debug.Log("GameOver "+ other.gameObject.tag);
             GameOver();
        }
        
@@ -107,23 +112,33 @@ public class PlayerController : MonoBehaviour
 
     private void TriggerCorrectItem(GameObject triggerObject, int scoreAmount)
     {
+        particlePos = transform.position;
         coin.IncreaseCoin(scoreAmount);
         score.IncreaseScore();
         Destroy(triggerObject);
         bubbleAudio.Play();
-        GameObject popup = Instantiate(scorePopup, triggerObject.transform.position + new Vector3(1, 0, 1), Quaternion.identity);
+        popup = Instantiate(scorePopup, triggerObject.transform.position + new Vector3(1, 0, 1), Quaternion.identity);
         popup.GetComponent<ScorePopup>().Setup("+"+scoreAmount, true);
-        StartCoroutine(CreateParticle(correctItemParticle, triggerObject));
+        if (triggerParticle != null && (triggerParticle.transform.position.z<(particlePos.z-5)))
+        {
+            Destroy(triggerParticle);
+        }
+        CreateParticle(correctItemParticle, triggerObject.transform.position);
     }
 
     private void TriggerWrongItem(GameObject triggerObject, int scoreAmount)
     {
+        particlePos = transform.position;
         coin.DecreaseCoin(scoreAmount);
         Destroy(triggerObject);
         wrongItemAudio.Play();
-        GameObject popup = Instantiate(scorePopup, triggerObject.transform.position + new Vector3(1, 0, 1), Quaternion.identity);
+        popup = Instantiate(scorePopup, triggerObject.transform.position + new Vector3(2, 0, 1), Quaternion.identity);
         popup.GetComponent<ScorePopup>().Setup("-" + scoreAmount, false);
-        StartCoroutine(CreateParticle(wrongItemParticle, triggerObject));
+        if (triggerParticle != null && (triggerParticle.transform.position.z < (particlePos.z - 5)))
+        {
+            Destroy(triggerParticle);
+        }
+        CreateParticle(wrongItemParticle, triggerObject.transform.position+new Vector3(1,0,0));
     }
 
     IEnumerator Speed()
@@ -135,11 +150,10 @@ public class PlayerController : MonoBehaviour
         isSpeedUp = false;
     }
     
-    IEnumerator CreateParticle(GameObject particle, GameObject triggerObject)
+    void CreateParticle(GameObject particle, Vector3 particlePosition)
     {
-        GameObject go = Instantiate(particle, triggerObject.transform.position, Quaternion.identity);
-        yield return new WaitForSeconds(0.5f);
-        Destroy(go);
+        particlePos = transform.position;
+        triggerParticle = Instantiate(particle, particlePosition, Quaternion.identity);
     }
 
     public float GetSpeed()

@@ -11,6 +11,9 @@ TagManager:
   - Steak
   - Hook
   - BonusFish
+  - Shark
+  - CorrectParticle
+  - WrongParticle
   layers:
   - Default
   - TransparentFX

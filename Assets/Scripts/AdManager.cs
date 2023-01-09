@@ -20,15 +20,17 @@ public class AdManager : MonoBehaviour
                 .SetTagForChildDirectedTreatment(TagForChildDirectedTreatment.Unspecified)
                 .build();
 
-        MobileAds.Initialize(initstatus =>
+        /*MobileAds.Initialize(initstatus =>
         {
             MobileAdsEventExecutor.ExecuteInUpdate(() =>
             {
                 RequestRewardedAd();
                 RequestInterstitialAd();
             });
-        });
-
+        });*/
+        MobileAds.Initialize(initStatus => { });
+        RequestRewardedAd();
+        RequestInterstitialAd();
     }
 
     public void ShowRewardedAd()

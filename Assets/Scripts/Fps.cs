@@ -11,7 +11,7 @@ public class Fps : MonoBehaviour
         Application.targetFrameRate = 60;
     }
 
-    private IEnumerator Start()
+    /*private IEnumerator Start()
     {
         GUI.depth = 2;
         while (true)
@@ -24,5 +24,5 @@ public class Fps : MonoBehaviour
     private void OnGUI()
     {
         GUI.Label(new Rect(5, 40, 100, 25), "FPS: " + Mathf.Round(count));
-    }
+    }*/
 }
