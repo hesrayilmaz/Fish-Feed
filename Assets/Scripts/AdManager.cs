@@ -20,17 +20,14 @@ public class AdManager : MonoBehaviour
                 .SetTagForChildDirectedTreatment(TagForChildDirectedTreatment.Unspecified)
                 .build();
 
-        /*MobileAds.Initialize(initstatus =>
+        MobileAds.Initialize(initstatus =>
         {
             MobileAdsEventExecutor.ExecuteInUpdate(() =>
             {
                 RequestRewardedAd();
                 RequestInterstitialAd();
             });
-        });*/
-        MobileAds.Initialize(initStatus => { });
-        RequestRewardedAd();
-        RequestInterstitialAd();
+        });
     }
 
     public void ShowRewardedAd()
@@ -39,13 +36,11 @@ public class AdManager : MonoBehaviour
 
         if (rewardedAd != null && rewardedAd.IsLoaded())
             rewardedAd.Show();
-        //else
-          //  EarnReward();
     }
 
     private void RequestRewardedAd()
     {
-        string adUnitID = "ca-app-pub-3940256099942544/5224354917";  //test id
+        string adUnitID = "ca-app-pub-3004880773065199/6582737567";
         rewardedAd = new RewardedAd(adUnitID);
         AdRequest request = new AdRequest.Builder().Build();
         rewardedAd.LoadAd(request);
@@ -82,7 +77,7 @@ public class AdManager : MonoBehaviour
 
     private void RequestInterstitialAd()
     {
-        string adUnitID = "ca-app-pub-3940256099942544/1033173712";  //test id
+        string adUnitID = "ca-app-pub-3004880773065199/2600380085";
 
         interstitialAd = new InterstitialAd(adUnitID);
         AdRequest request = new AdRequest.Builder().Build();

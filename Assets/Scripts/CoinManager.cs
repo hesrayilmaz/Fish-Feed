@@ -11,7 +11,6 @@ public class CoinManager : MonoBehaviour
     private void Start()
     {
         coin = PlayerPrefs.GetInt("coin",0);
-        //coin = 0;
     }
     private void Update()
     {

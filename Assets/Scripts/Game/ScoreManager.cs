@@ -22,8 +22,6 @@ public class ScoreManager : MonoBehaviour
     void Update()
     {
         scoreText.text = "" + score;
-        gameOverScoreText.text = "Score: " + score;
-        gameOverHighScoreText.text = "High Score: " + PlayerPrefs.GetInt("HighScore");
     }
 
     public void IncreaseScore()
@@ -34,6 +32,12 @@ public class ScoreManager : MonoBehaviour
             highScore = score;
             PlayerPrefs.SetInt("HighScore", highScore);
         }
+    }
+
+    public void SetGameOverScore()
+    {
+        gameOverScoreText.text = "Score: " + score;
+        gameOverHighScoreText.text = "High Score: " + PlayerPrefs.GetInt("HighScore");
     }
         
 }

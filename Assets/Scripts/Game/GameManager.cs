@@ -10,15 +10,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject countdown;
     [SerializeField] private AudioSource backgroundAudio;
     [SerializeField] private AudioSource clickAudio;
+    [SerializeField] private ScoreManager scoreManager;
 
     private GameObject player;
     public bool isPlaying;
     private bool isStarted;
-
-    private void Awake()
-    {
-        RenderSettings.fog = true;
-    }
 
     // Start is called before the first frame update
     void Start()
@@ -43,6 +39,7 @@ public class GameManager : MonoBehaviour
     {
         isPlaying = false;
         backgroundAudio.Stop();
+        scoreManager.SetGameOverScore();
         gameOverPanel.SetActive(true);
         if (PlayerPrefs.GetString("EarnedHeart") == "true")
             gameOverPanel.transform.Find("ExtraHeartButton").gameObject.SetActive(false);

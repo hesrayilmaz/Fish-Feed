@@ -14,8 +14,9 @@ public class ShopButtonsController : MonoBehaviour
         }
 
         //Debug.Log("PlayerPrefs.GetString(purchasedCharacters) "+PlayerPrefs.GetString("purchasedCharacters"));
-        
+
         string[] purchasedCharacters = PlayerPrefs.GetString("purchasedCharacters", "Fish1").Split(",");
+        
         foreach (string fish in purchasedCharacters)
         {
             //Debug.Log("fish name: " + fish);

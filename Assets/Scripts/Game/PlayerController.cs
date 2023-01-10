@@ -55,7 +55,7 @@ public class PlayerController : MonoBehaviour
 
             if (transform.position.z >= tileManager.GetDestroyPoint())
             {
-                if (forwardSpeed < 180)
+                if (forwardSpeed < 90)
                 {
                     forwardSpeed += 3f;
                 }
@@ -98,7 +98,6 @@ public class PlayerController : MonoBehaviour
        }
        else if (other.gameObject.tag == "Obstacle" || other.gameObject.tag == "Shark" || other.gameObject.tag == "Hook")
        {
-            Debug.Log("GameOver "+ other.gameObject.tag);
             GameOver();
        }
        

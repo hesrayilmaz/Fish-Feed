@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnvironmentManager : MonoBehaviour
 {
-    [SerializeField] private Transform totalEnv, env1, env2;
+    [SerializeField] private Transform env1, env2;
     private bool isFirstEnv = true;
 
 
