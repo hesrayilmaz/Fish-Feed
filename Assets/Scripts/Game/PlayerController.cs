@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
         if (isStarted)
         {
             animator = transform.GetChild(0).GetChild(0).GetChild(0).GetComponent<Animator>();
-            //speedParticle = transform.GetChild(0).GetChild(0).Find("SpeedParticle").gameObject;
+            speedParticle = transform.GetChild(0).GetChild(0).Find("SpeedParticle").gameObject;
             isStarted = false;
         }
 
@@ -142,13 +142,13 @@ public class PlayerController : MonoBehaviour
     IEnumerator Speed()
     {
         transform.Translate(Vector3.forward * Time.deltaTime * 130);
-        //speedParticle.SetActive(true);
+        speedParticle.SetActive(true);
         animator.speed = 3;
         yield return new WaitForSeconds(0.3f);
         animator.speed = 1f;
         isSpeedUp = false;
         yield return new WaitForSeconds(0.2f);
-        //speedParticle.SetActive(false);
+        speedParticle.SetActive(false);
     }
 
     void CreateParticle(GameObject particle, Vector3 particlePosition)
