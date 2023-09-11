@@ -2,7 +2,7 @@ fileFormatVersion: 2
 guid: 735ca9cf259f453abac02f4573d8a420
 labels:
 - gvh
-- gvh_version-7.2.0
+- gvh_version-8.5.2
 - gvhp_exportpath-GoogleMobileAds/GoogleMobileAds.iOS.dll
 timeCreated: 1480838400
 PluginImporter:
@@ -68,6 +68,11 @@ PluginImporter:
         CPU: AnyCPU
     iOS:
       enabled: 1
+      settings:
+        CompileFlags:
+        FrameworkDependencies:
+    tvOS:
+      enabled: 0
       settings:
         CompileFlags:
         FrameworkDependencies:

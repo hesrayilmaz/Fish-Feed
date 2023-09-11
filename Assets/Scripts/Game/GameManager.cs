@@ -21,14 +21,14 @@ public class GameManager : MonoBehaviour
     {
         isPlaying = false;
         isStarted = true;
-        PlayerPrefs.SetString("EarnedHeart","false");
+        PlayerPrefs.SetString("EarnedHeart", "false");
     }
 
     private void Update()
     {
         if (isStarted)
         {
-            player = GameObject.Find("PlayerController").transform.GetComponentsInChildren<Transform>()[1].gameObject;
+            player = GameObject.Find("PlayerController").transform.GetChild(0).gameObject;
             //Debug.Log("WHICH PLAYER IS ACTIVE: " + player.name);
             isStarted = false;
             StartCoroutine(Play());
@@ -83,7 +83,7 @@ public class GameManager : MonoBehaviour
     public void GoToShop()
     {
         clickAudio.Play();
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
     public void ExitGame()

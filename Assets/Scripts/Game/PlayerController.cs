@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
     private bool isStarted = true;
     private Vector3 targetPos, particlePos;
     private Animator animator;
-    private GameObject popup, triggerParticle;
+    private GameObject popup, triggerParticle, speedParticle;
 
 
     // Update is called once per frame
@@ -30,7 +30,8 @@ public class PlayerController : MonoBehaviour
     {
         if (isStarted)
         {
-            animator = transform.GetComponentsInChildren<Transform>()[1].gameObject.GetComponentsInChildren<Animator>()[0];
+            animator = transform.GetChild(0).GetChild(0).GetChild(0).GetComponent<Animator>();
+            //speedParticle = transform.GetChild(0).GetChild(0).Find("SpeedParticle").gameObject;
             isStarted = false;
         }
 
@@ -59,12 +60,10 @@ public class PlayerController : MonoBehaviour
                 {
                     forwardSpeed += 3f;
                 }
-                Debug.Log("INCREASE SPEED");
-                Debug.Log(forwardSpeed);
             }
-           
+
             transform.Translate(Vector3.forward * Time.deltaTime * forwardSpeed);
-            
+
             targetPos = transform.position.z * transform.forward + transform.position.y * transform.up;
             if (desiredLane == 0)
                 targetPos += Vector3.left * laneDistance;
@@ -73,35 +72,35 @@ public class PlayerController : MonoBehaviour
 
             transform.position = Vector3.Lerp(transform.position, targetPos, Time.deltaTime * 10);
         }
-        
+
     }
 
 
     private void OnTriggerEnter(Collider other)
     {
-       if (other.gameObject.tag == "Steak")
-       {
+        if (other.gameObject.tag == "Steak")
+        {
             TriggerCorrectItem(other.gameObject, 15);
             isSpeedUp = true;
-       }
-       else if (other.gameObject.tag == "Fish")
-       {
+        }
+        else if (other.gameObject.tag == "Fish")
+        {
             TriggerCorrectItem(other.gameObject, 10);
-       }
-       else if (other.gameObject.tag == "BonusFish")
-       {
+        }
+        else if (other.gameObject.tag == "BonusFish")
+        {
             TriggerCorrectItem(other.gameObject, 15);
-       }
-       else if (other.gameObject.tag == "Trash")
-       {
+        }
+        else if (other.gameObject.tag == "Trash")
+        {
             TriggerWrongItem(other.gameObject, 10);
-       }
-       else if (other.gameObject.tag == "Obstacle" || other.gameObject.tag == "Shark" || other.gameObject.tag == "Hook")
-       {
+        }
+        else if (other.gameObject.tag == "Obstacle" || other.gameObject.tag == "Shark" || other.gameObject.tag == "Hook")
+        {
             GameOver();
-       }
-       
-   }
+        }
+
+    }
 
     public void GameOver()
     {
@@ -117,8 +116,8 @@ public class PlayerController : MonoBehaviour
         Destroy(triggerObject);
         bubbleAudio.Play();
         popup = Instantiate(scorePopup, triggerObject.transform.position + new Vector3(1, 0, 1), Quaternion.identity);
-        popup.GetComponent<ScorePopup>().Setup("+"+scoreAmount, true);
-        if (triggerParticle != null && (triggerParticle.transform.position.z<(particlePos.z-5)))
+        popup.GetComponent<ScorePopup>().Setup("+" + scoreAmount, true);
+        if (triggerParticle != null && (triggerParticle.transform.position.z < (particlePos.z - 5)))
         {
             Destroy(triggerParticle);
         }
@@ -137,18 +136,21 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(triggerParticle);
         }
-        CreateParticle(wrongItemParticle, triggerObject.transform.position+new Vector3(1,0,0));
+        CreateParticle(wrongItemParticle, triggerObject.transform.position + new Vector3(1, 0, 0));
     }
 
     IEnumerator Speed()
     {
         transform.Translate(Vector3.forward * Time.deltaTime * 130);
+        //speedParticle.SetActive(true);
         animator.speed = 3;
         yield return new WaitForSeconds(0.3f);
         animator.speed = 1f;
         isSpeedUp = false;
+        yield return new WaitForSeconds(0.2f);
+        //speedParticle.SetActive(false);
     }
-    
+
     void CreateParticle(GameObject particle, Vector3 particlePosition)
     {
         particlePos = transform.position;
@@ -156,8 +158,8 @@ public class PlayerController : MonoBehaviour
     }
 
     public float GetSpeed()
-   {
+    {
         return forwardSpeed;
-   }
+    }
 
 }
